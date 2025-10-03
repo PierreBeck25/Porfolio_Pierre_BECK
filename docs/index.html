@@ -20,11 +20,7 @@
       darkMode: 'class'
     };
   </script>
-  <style>
-    ::selection{background:#e2e8f0;color:#0f172a}
-    .chip{ @apply px-3 py-1.5 rounded-xl border text-sm border-slate-200 dark:border-slate-800 hover:bg-slate-100 dark:hover:bg-slate-800 cursor-pointer select-none; }
-    .chip-active{ @apply bg-sky-600 text-white border-sky-600 hover:bg-sky-700; }
-  </style>
+  <style> ::selection{background:#e2e8f0;color:#0f172a} </style>
 </head>
 <body class="bg-slate-50 text-slate-800 dark:bg-slate-950 dark:text-slate-100">
   <!-- Header -->
@@ -33,6 +29,7 @@
       <a href="#hero" class="font-extrabold tracking-tight text-xl">PIERRE<span class="text-sky-500">·DATA</span></a>
       <nav class="hidden md:flex items-center gap-6 text-sm font-medium">
         <a href="#projets" class="hover:text-sky-600">Projets</a>
+        <a href="#modules" class="hover:text-sky-600">Modules</a>
         <a href="#skills" class="hover:text-sky-600">Compétences</a>
         <a href="#about" class="hover:text-sky-600">À propos</a>
         <a href="#contact" class="hover:text-sky-600">Contact</a>
@@ -45,24 +42,29 @@
   <section id="hero" class="relative overflow-hidden">
     <div class="mx-auto max-w-6xl px-4 py-20 md:py-28 grid md:grid-cols-2 gap-10 items-center">
       <div>
-        <p class="text-sm uppercase tracking-widest text-slate-500">Consultant Data · Analytics · IA</p>
-        <h1 class="mt-3 text-4xl md:text-5xl font-extrabold leading-tight">Salut, moi c'est <span class="text-sky-600">Pierre&nbsp;BECK</span>.<br /> Je transforme des données en décisions.</h1>
-        <p class="mt-5 text-slate-600 dark:text-slate-300 max-w-xl">Spécialisé en analytics, visualisation, automatisation et utilisation pragmatique de l'IA. J'applique la data à des problèmes concrets (recrutement, événements, produit).</p>
+        <p class="text-sm uppercase tracking-widest text-slate-500">Data · Analytics · AI</p>
+        <h1 class="mt-3 text-4xl md:text-5xl font-extrabold leading-tight">Salut, moi c'est <span class="text-sky-600">Pierre&nbsp;BECK</span>.<br /> Je transforme des data en <span class="text-sky-600">insights</span>.</h1>
+        <p class="mt-5 text-slate-600 dark:text-slate-300 max-w-xl">Analytics, dashboards, A/B testing, automation & IA appliqués à des problèmes réels (recrutement, events, produit). Des résultats clairs, actionnables.</p>
         <div class="mt-7 flex flex-wrap gap-3">
           <a href="https://github.com/PierreBeck25" target="_blank" class="inline-flex items-center gap-2 rounded-xl px-4 py-2.5 bg-sky-600 text-white shadow-soft hover:bg-sky-700">⚙️ GitHub</a>
           <a href="#projets" class="inline-flex items-center gap-2 rounded-xl px-4 py-2.5 border border-slate-200 dark:border-slate-800 hover:bg-slate-100 dark:hover:bg-slate-800">Voir mes projets ↓</a>
-          <a href="./cv_Pierre_BECK.pdf" class="inline-flex items-center gap-2 rounded-xl px-4 py-2.5 border border-slate-200 dark:border-slate-800 hover:bg-slate-100 dark:hover:bg-slate-800">📄 Télécharger mon CV</a>
+          <a href="./PierreBeck_DataAnalyst.pdf" class="inline-flex items-center gap-2 rounded-xl px-4 py-2.5 border border-slate-200 dark:border-slate-800 hover:bg-slate-100 dark:hover:bg-slate-800">📄 Télécharger mon CV (PDF)</a>
         </div>
       </div>
       <div class="relative">
-        <div class="aspect-square rounded-3xl bg-gradient-to-br from-sky-100 to-indigo-100 dark:from-sky-900/30 dark:to-indigo-900/20 p-3">
-          <div class="h-full w-full rounded-2xl border border-slate-200 dark:border-slate-800 grid place-items-center text-center px-6">
-            <p class="text-sm text-slate-500">Data Stack préféré</p>
-            <ul class="mt-2 text-2xl font-bold leading-relaxed">
-              <li>Python · Pandas · Polars</li>
-              <li>SQL · PostgreSQL · BigQuery</li>
-              <li>Airflow · dbt · DuckDB</li>
-              <li>Power BI · Tableau · Plotly</li>
+        <div class="aspect-[4/3] rounded-3xl bg-gradient-to-br from-sky-100 to-indigo-100 dark:from-sky-900/30 dark:to-indigo-900/20 p-3">
+          <div class="h-full w-full rounded-2xl border border-slate-200 dark:border-slate-800 text-center px-6 py-6">
+            <img src="./pierre.jpg" alt="Photo de Pierre BECK" class="mx-auto h-40 w-40 rounded-2xl object-cover border border-slate-200 dark:border-slate-800 shadow-soft" />
+            <p class="mt-4 text-sm text-slate-500">Preferred Data Stack</p>
+            <ul class="mt-2 grid grid-cols-2 gap-x-6 gap-y-1 text-base font-semibold leading-relaxed">
+              <li>Python · Pandas</li>
+              <li>Polars</li>
+              <li>SQL · PostgreSQL</li>
+              <li>BigQuery</li>
+              <li>Airflow · dbt</li>
+              <li>DuckDB</li>
+              <li>Power BI · Tableau</li>
+              <li>Plotly</li>
             </ul>
           </div>
         </div>
@@ -100,6 +102,113 @@
 
       <div class="mt-6 text-center">
         <a class="inline-flex items-center gap-2 text-sky-700 dark:text-sky-400 hover:underline" href="https://github.com/PierreBeck25?tab=repositories" target="_blank">Voir tous les dépôts →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modules (Applications) -->
+  <section id="modules" class="py-16 md:py-24 border-t border-slate-200/70 dark:border-slate-800">
+    <div class="mx-auto max-w-6xl px-4">
+      <h2 class="text-3xl md:text-4xl font-extrabold">Applications — Modules étudiés</h2>
+      <p class="mt-2 text-slate-600 dark:text-slate-300">Thèmes + outils/logiciels alignés, sans mélanger.</p>
+
+      <div class="mt-6 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Module 1 -->
+        <div class="p-5 rounded-2xl border border-slate-200 dark:border-slate-800 bg-white/50 dark:bg-slate-900/40">
+          <h3 class="font-semibold">Module 1 · Google Sheets / KPIs / AARRR / Churn / Funnel</h3>
+          <div class="mt-3 text-sm">
+            <p class="font-medium">Thèmes :</p>
+            <ul class="list-disc list-inside text-slate-600 dark:text-slate-300 space-y-1">
+              <li>Design de KPI, AARRR, funnels, cohortes de base</li>
+              <li>Calculs, agrégations, tableaux croisés</li>
+            </ul>
+            <p class="mt-3 font-medium">Outils & logiciels :</p>
+            <ul class="list-disc list-inside text-slate-600 dark:text-slate-300 space-y-1">
+              <li>Google Sheets (ARRAYFORMULA, QUERY, Pivot tables)</li>
+              <li>Looker Studio (premiers dashboards)</li>
+            </ul>
+          </div>
+        </div>
+        <!-- Module 2 -->
+        <div class="p-5 rounded-2xl border border-slate-200 dark:border-slate-800 bg-white/50 dark:bg-slate-900/40">
+          <h3 class="font-semibold">Module 2 · SQL & Data Warehousing</h3>
+          <div class="mt-3 text-sm">
+            <p class="font-medium">Thèmes :</p>
+            <ul class="list-disc list-inside text-slate-600 dark:text-slate-300 space-y-1">
+              <li>Modélisation (staging → marts, star schema)</li>
+              <li>CTE, window functions, qualité de données</li>
+            </ul>
+            <p class="mt-3 font-medium">Outils & logiciels :</p>
+            <ul class="list-disc list-inside text-slate-600 dark:text-slate-300 space-y-1">
+              <li>BigQuery</li>
+              <li>dbt (transformations & documentation)</li>
+            </ul>
+          </div>
+        </div>
+        <!-- Module 3 -->
+        <div class="p-5 rounded-2xl border border-slate-200 dark:border-slate-800 bg-white/50 dark:bg-slate-900/40">
+          <h3 class="font-semibold">Module 3 · Data Extraction</h3>
+          <div class="mt-3 text-sm">
+            <p class="font-medium">Thèmes :</p>
+            <ul class="list-disc list-inside text-slate-600 dark:text-slate-300 space-y-1">
+              <li>APIs, ingestion, webhooks, scheduling</li>
+              <li>Traçabilité et limites d’API</li>
+            </ul>
+            <p class="mt-3 font-medium">Outils & logiciels :</p>
+            <ul class="list-disc list-inside text-slate-600 dark:text-slate-300 space-y-1">
+              <li>Python (requests) pour APIs</li>
+              <li>Zapier · Fivetran · Google Tag Manager</li>
+            </ul>
+          </div>
+        </div>
+        <!-- Module 4 -->
+        <div class="p-5 rounded-2xl border border-slate-200 dark:border-slate-800 bg-white/50 dark:bg-slate-900/40">
+          <h3 class="font-semibold">Module 4 · Data Visualization & A/B Testing</h3>
+          <div class="mt-3 text-sm">
+            <p class="font-medium">Thèmes :</p>
+            <ul class="list-disc list-inside text-slate-600 dark:text-slate-300 space-y-1">
+              <li>Design de dashboards, storytelling, accessibilité</li>
+              <li>AB testing (métriques, interprétation)</li>
+            </ul>
+            <p class="mt-3 font-medium">Outils & logiciels :</p>
+            <ul class="list-disc list-inside text-slate-600 dark:text-slate-300 space-y-1">
+              <li>Looker Studio</li>
+              <li>Power BI</li>
+            </ul>
+          </div>
+        </div>
+        <!-- Module 5 -->
+        <div class="p-5 rounded-2xl border border-slate-200 dark:border-slate-800 bg-white/50 dark:bg-slate-900/40">
+          <h3 class="font-semibold">Module 5 · Python (pandas, scikit-learn, prophet, clustering)</h3>
+          <div class="mt-3 text-sm">
+            <p class="font-medium">Thèmes :</p>
+            <ul class="list-disc list-inside text-slate-600 dark:text-slate-300 space-y-1">
+              <li>EDA, features, modèles baseline (régression/classement)</li>
+              <li>Time series (Prophet), clustering (k-means)</li>
+            </ul>
+            <p class="mt-3 font-medium">Outils & logiciels :</p>
+            <ul class="list-disc list-inside text-slate-600 dark:text-slate-300 space-y-1">
+              <li>Python · Jupyter</li>
+              <li>pandas · scikit-learn · Prophet</li>
+            </ul>
+          </div>
+        </div>
+        <!-- Module 6 -->
+        <div class="p-5 rounded-2xl border border-slate-200 dark:border-slate-800 bg-white/50 dark:bg-slate-900/40">
+          <h3 class="font-semibold">Module 6 · Projet final</h3>
+          <div class="mt-3 text-sm">
+            <p class="font-medium">Thèmes :</p>
+            <ul class="list-disc list-inside text-slate-600 dark:text-slate-300 space-y-1">
+              <li>Pipeline end‑to‑end, documentation, data storytelling</li>
+              <li>Dashboards finaux et restitution</li>
+            </ul>
+            <p class="mt-3 font-medium">Outils & logiciels :</p>
+            <ul class="list-disc list-inside text-slate-600 dark:text-slate-300 space-y-1">
+              <li>BigQuery · dbt · Python</li>
+              <li>Looker Studio · Power BI</li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -168,8 +277,9 @@
       <h2 class="text-3xl md:text-4xl font-extrabold">Travaillons ensemble</h2>
       <p class="mt-3 text-slate-600 dark:text-slate-300">Ouvert à des missions freelance/temps plein en Data.</p>
       <div class="mt-6 flex flex-wrap justify-center gap-3">
-        <a href="mailto:pierre@example.com" class="rounded-xl px-4 py-2.5 bg-sky-600 text-white shadow-soft hover:bg-sky-700">Me contacter</a>
+        <a href="mailto:beckcavs@gmail.com" class="rounded-xl px-4 py-2.5 bg-sky-600 text-white shadow-soft hover:bg-sky-700">Me contacter</a>
         <a href="https://www.linkedin.com/in/pierre-beck" target="_blank" class="rounded-xl px-4 py-2.5 border border-slate-200 dark:border-slate-800 hover:bg-slate-100 dark:hover:bg-slate-800">LinkedIn</a>
+        <a href="./PierreBeck_DataAnalyst.pdf" class="rounded-xl px-4 py-2.5 border border-slate-200 dark:border-slate-800 hover:bg-slate-100 dark:hover:bg-slate-800">📄 CV (PDF)</a>
       </div>
       <p class="mt-6 text-xs text-slate-500">Dernière mise à jour : <span id="lastUpdated"></span></p>
     </div>
@@ -223,7 +333,7 @@
       ALL_TAGS.forEach(t => {
         const b = document.createElement('button');
         b.textContent = t;
-        b.className = 'chip';
+        b.className = 'px-3 py-1.5 rounded-xl border text-sm border-slate-200 dark:border-slate-800 hover:bg-slate-100 dark:hover:bg-slate-800';
         b.onclick = () => { toggleTag(t, b); };
         tagsPanel.appendChild(b);
       });
@@ -231,8 +341,8 @@
     }
 
     function toggleTag(t, el){
-      if (activeTags.has(t)) { activeTags.delete(t); el.classList.remove('chip-active'); }
-      else { activeTags.add(t); el.classList.add('chip-active'); }
+      if (activeTags.has(t)) { activeTags.delete(t); el.classList.remove('bg-sky-600','text-white','border-sky-600'); }
+      else { activeTags.add(t); el.classList.add('bg-sky-600','text-white','border-sky-600'); }
       updateCount();
       renderProjects();
     }
