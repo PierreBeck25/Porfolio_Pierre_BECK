@@ -34,7 +34,7 @@ Je transforme les données en **insights stratégiques** pour optimiser les proc
 
 👉 [Mon profil LinkedIn](https://www.linkedin.com/in/pierre-beck/)  
 👉 [Télécharger mon CV (PDF)](./docs/PierreBeck_DataAnalyst.pdf)
-👉 [Site GitHub Pages](./docs/index.html)
+👉 [Site GitHub Pages](https://pierrebeck25.github.io/Porfolio_Pierre_BECK/)
 
 ---
 
