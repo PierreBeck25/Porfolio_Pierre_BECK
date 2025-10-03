@@ -20,7 +20,11 @@
       darkMode: 'class'
     };
   </script>
-  <style> ::selection{background:#e2e8f0;color:#0f172a} </style>
+  <style>
+    ::selection{background:#e2e8f0;color:#0f172a}
+    .chip{ @apply px-3 py-1.5 rounded-xl border text-sm border-slate-200 dark:border-slate-800 hover:bg-slate-100 dark:hover:bg-slate-800 cursor-pointer select-none; }
+    .chip-active{ @apply bg-sky-600 text-white border-sky-600 hover:bg-sky-700; }
+  </style>
 </head>
 <body class="bg-slate-50 text-slate-800 dark:bg-slate-950 dark:text-slate-100">
   <!-- Header -->
@@ -43,7 +47,7 @@
       <div>
         <p class="text-sm uppercase tracking-widest text-slate-500">Consultant Data · Analytics · IA</p>
         <h1 class="mt-3 text-4xl md:text-5xl font-extrabold leading-tight">Salut, moi c'est <span class="text-sky-600">Pierre&nbsp;BECK</span>.<br /> Je transforme des données en décisions.</h1>
-        <p class="mt-5 text-slate-600 dark:text-slate-300 max-w-xl">Spécialisé en analytics, visualisation, automatisation et utilisation pragmatique de l'IA. J'aime le basket (NBA), la musique live et j'applique la data à des problèmes concrets (recrutement, événements, produit).</p>
+        <p class="mt-5 text-slate-600 dark:text-slate-300 max-w-xl">Spécialisé en analytics, visualisation, automatisation et utilisation pragmatique de l'IA. J'applique la data à des problèmes concrets (recrutement, événements, produit).</p>
         <div class="mt-7 flex flex-wrap gap-3">
           <a href="https://github.com/PierreBeck25" target="_blank" class="inline-flex items-center gap-2 rounded-xl px-4 py-2.5 bg-sky-600 text-white shadow-soft hover:bg-sky-700">⚙️ GitHub</a>
           <a href="#projets" class="inline-flex items-center gap-2 rounded-xl px-4 py-2.5 border border-slate-200 dark:border-slate-800 hover:bg-slate-100 dark:hover:bg-slate-800">Voir mes projets ↓</a>
@@ -74,11 +78,22 @@
           <h2 class="text-3xl md:text-4xl font-extrabold">Projets sélectionnés</h2>
           <p class="mt-2 text-slate-600 dark:text-slate-300">Cas concrets, notebooks reproductibles, et démos interactives.</p>
         </div>
-        <div class="shrink-0 flex gap-2 items-center">
+        <div class="shrink-0 flex items-center gap-2">
           <input id="search" type="search" placeholder="Rechercher…" class="hidden md:block rounded-xl border border-slate-200 dark:border-slate-800 bg-transparent px-3 py-2" />
-          <div class="text-sm">Filtrer : </div>
-          <div id="tags" class="flex flex-wrap gap-2"></div>
+          <button id="btnFilters" class="rounded-xl px-3 py-2 border border-slate-200 dark:border-slate-800 hover:bg-slate-100 dark:hover:bg-slate-800 text-sm">Filtres <span id="countSel" class="opacity-70">(0)</span></button>
         </div>
+      </div>
+
+      <!-- Panneau de filtres -->
+      <div id="filtersPanel" class="mt-4 hidden rounded-2xl border border-slate-200 dark:border-slate-800 bg-white/60 dark:bg-slate-900/40 p-4">
+        <div class="flex items-center justify-between mb-3">
+          <div class="text-sm font-medium text-slate-600 dark:text-slate-300">Sélectionne un ou plusieurs tags :</div>
+          <div class="flex gap-2">
+            <button id="clearFilters" class="text-sm underline hover:no-underline">Réinitialiser</button>
+            <button id="closeFilters" class="text-sm underline hover:no-underline">Fermer</button>
+          </div>
+        </div>
+        <div id="tagsPanel" class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-2"></div>
       </div>
 
       <div id="grid" class="mt-8 grid sm:grid-cols-2 lg:grid-cols-3 gap-6"></div>
@@ -127,7 +142,7 @@
     <div class="mx-auto max-w-6xl px-4 grid md:grid-cols-2 gap-10 items-center">
       <div class="order-2 md:order-1">
         <h2 class="text-3xl md:text-4xl font-extrabold">À propos</h2>
-        <p class="mt-4 text-slate-600 dark:text-slate-300 leading-relaxed">Diplômé d'école de commerce, 5 ans d'expérience en recrutement (industrie, BTP, fonctions supports). Je combine sens business et culture data pour livrer des projets utiles et beaux. Basé entre Besançon et Genève.</p>
+        <p class="mt-4 text-slate-600 dark:text-slate-300 leading-relaxed">Diplômé d'école de commerce avec une expérience en recrutement et une reconversion en Data Analytics (Le Wagon). Je combine sens business et culture data pour livrer des projets utiles, clairs et exploitables.</p>
         <ul class="mt-4 text-slate-600 dark:text-slate-300 list-disc list-inside space-y-1">
           <li>Travail reproductible, noté et versionné</li>
           <li>Documentation claire, README soignés</li>
@@ -151,12 +166,12 @@
   <section id="contact" class="py-16 md:py-24 border-t border-slate-200/70 dark:border-slate-800">
     <div class="mx-auto max-w-6xl px-4 text-center">
       <h2 class="text-3xl md:text-4xl font-extrabold">Travaillons ensemble</h2>
-      <p class="mt-3 text-slate-600 dark:text-slate-300">Ouvert à des missions freelance/temps plein en Data · Genève / remote.</p>
+      <p class="mt-3 text-slate-600 dark:text-slate-300">Ouvert à des missions freelance/temps plein en Data.</p>
       <div class="mt-6 flex flex-wrap justify-center gap-3">
         <a href="mailto:pierre@example.com" class="rounded-xl px-4 py-2.5 bg-sky-600 text-white shadow-soft hover:bg-sky-700">Me contacter</a>
         <a href="https://www.linkedin.com/in/pierre-beck" target="_blank" class="rounded-xl px-4 py-2.5 border border-slate-200 dark:border-slate-800 hover:bg-slate-100 dark:hover:bg-slate-800">LinkedIn</a>
       </div>
-      <p class="mt-6 text-xs text-slate-500">Dernière mise à jour : <span id="lastUpdated"></span></p>
+      <p class="mt-6 text-xs text-slate-500">Dernière mise à jour : <span id="lastUpdated"></span></p>
     </div>
   </section>
 
@@ -183,67 +198,46 @@
 
     // --- Projets (éditer ici)
     const PROJECTS = [
-      {
-        title: 'NBA Shot Analytics',
-        desc: 'Analyse spatiale des tirs NBA · Heatmaps, efficacité par zone, modèle xShot.',
-        tags: ['python','viz','sports'],
-        repo: 'https://github.com/PierreBeck25/nba-shot-analytics',
-        demo: '',
-      },
-      {
-        title: 'Demandes Concerts · Festival',
-        desc: 'Scraping billetterie + forecasts de demande pour dimensionner un festival.',
-        tags: ['python','scraping','forecast'],
-        repo: 'https://github.com/PierreBeck25/concert-demand-forecast',
-        demo: '',
-      },
-      {
-        title: 'Recruitment Funnel BI',
-        desc: 'Tableau de bord Power BI: temps de cycle, conversion, qualité des candidats.',
-        tags: ['powerbi','business','recrutement'],
-        repo: 'https://github.com/PierreBeck25/recruitment-funnel-bi',
-        demo: '',
-      },
-      {
-        title: 'Churn e‑commerce (cohortes)',
-        desc: 'Cohortes, LTV et churn prediction avec Polars + scikit-learn.',
-        tags: ['python','ml','cohortes'],
-        repo: 'https://github.com/PierreBeck25/ecom-churn-cohorts',
-        demo: '',
-      },
-      {
-        title: 'Pricing billets avion (RAG)',
-        desc: 'Notes d’analyse + RAG sur docs pour résumer les tendances de prix.',
-        tags: ['ai','rag','notes'],
-        repo: 'https://github.com/PierreBeck25/flight-pricing-rag',
-        demo: '',
-      },
-      {
-        title: 'Open Data Genève',
-        desc: 'Exploration DuckDB + notebooks sur open data mobilité/énergie à Genève.',
-        tags: ['duckdb','sql','opendata'],
-        repo: 'https://github.com/PierreBeck25/opendata-geneve',
-        demo: '',
-      },
+      { title: 'NBA Shot Analytics', desc: 'Analyse spatiale des tirs NBA · Heatmaps, efficacité par zone, modèle xShot.', tags: ['python','viz','sports'], repo: 'https://github.com/PierreBeck25/nba-shot-analytics', demo: '' },
+      { title: 'Demandes Concerts · Festival', desc: 'Scraping billetterie + forecasts de demande pour dimensionner un festival.', tags: ['python','scraping','forecast'], repo: 'https://github.com/PierreBeck25/concert-demand-forecast', demo: '' },
+      { title: 'Recruitment Funnel BI', desc: 'Tableau de bord Power BI: temps de cycle, conversion, qualité des candidats.', tags: ['powerbi','business','recrutement'], repo: 'https://github.com/PierreBeck25/recruitment-funnel-bi', demo: '' },
+      { title: 'Churn e-commerce (cohortes)', desc: 'Cohortes, LTV et churn prediction avec Polars + scikit-learn.', tags: ['python','ml','cohortes'], repo: 'https://github.com/PierreBeck25/ecom-churn-cohorts', demo: '' },
+      { title: 'Pricing billets avion (RAG)', desc: 'Notes d’analyse + RAG sur docs pour résumer les tendances de prix.', tags: ['ai','rag','notes'], repo: 'https://github.com/PierreBeck25/flight-pricing-rag', demo: '' },
+      { title: 'Open Data Genève', desc: 'Exploration DuckDB + notebooks sur open data mobilité/énergie.', tags: ['duckdb','sql','opendata'], repo: 'https://github.com/PierreBeck25/opendata-geneve', demo: '' },
     ];
 
     // --- Tags uniques
     const ALL_TAGS = Array.from(new Set(PROJECTS.flatMap(p => p.tags))).sort();
-    const tagsEl = document.getElementById('tags');
     const gridEl = document.getElementById('grid');
     const searchEl = document.getElementById('search');
+    const btnFilters = document.getElementById('btnFilters');
+    const filtersPanel = document.getElementById('filtersPanel');
+    const tagsPanel = document.getElementById('tagsPanel');
+    const clearFiltersBtn = document.getElementById('clearFilters');
+    const closeFiltersBtn = document.getElementById('closeFilters');
+    const countSel = document.getElementById('countSel');
     let activeTags = new Set();
 
     function renderTags(){
-      tagsEl.innerHTML = '';
+      tagsPanel.innerHTML = '';
       ALL_TAGS.forEach(t => {
         const b = document.createElement('button');
         b.textContent = t;
-        b.className = 'px-3 py-1.5 rounded-xl border text-sm border-slate-200 dark:border-slate-800 hover:bg-slate-100 dark:hover:bg-slate-800';
-        b.onclick = () => { activeTags.has(t) ? activeTags.delete(t) : activeTags.add(t); renderProjects(); };
-        tagsEl.appendChild(b);
+        b.className = 'chip';
+        b.onclick = () => { toggleTag(t, b); };
+        tagsPanel.appendChild(b);
       });
+      updateCount();
     }
+
+    function toggleTag(t, el){
+      if (activeTags.has(t)) { activeTags.delete(t); el.classList.remove('chip-active'); }
+      else { activeTags.add(t); el.classList.add('chip-active'); }
+      updateCount();
+      renderProjects();
+    }
+
+    function updateCount(){ countSel.textContent = `(${activeTags.size})`; }
 
     function match(p){
       const q = (searchEl?.value || '').toLowerCase();
@@ -272,7 +266,13 @@
       PROJECTS.filter(match).forEach(p => gridEl.appendChild(card(p)));
     }
 
+    // Events
     searchEl?.addEventListener('input', renderProjects);
+    btnFilters?.addEventListener('click', () => { filtersPanel.classList.toggle('hidden'); });
+    clearFiltersBtn?.addEventListener('click', () => { activeTags.clear(); renderTags(); renderProjects(); });
+    closeFiltersBtn?.addEventListener('click', () => { filtersPanel.classList.add('hidden'); });
+
+    // Init
     renderTags();
     renderProjects();
   </script>
