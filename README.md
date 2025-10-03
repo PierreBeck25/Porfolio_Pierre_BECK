@@ -46,6 +46,6 @@ Mon objectif : transformer la donnée brute en **insights stratégiques** pour a
 ## 📫 Me contacter  
 - 💼 [LinkedIn](https://www.linkedin.com/in/pierre-beck/)  
 - 📧 beckcavs@gmail.com  
-- 🌍 Basé à Genève  
+- 🌍 Basé en France
 
 ---
