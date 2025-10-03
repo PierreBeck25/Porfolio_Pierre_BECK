@@ -33,7 +33,7 @@ Je suis **Data Analyst junior** avec 2 ans d’expérience en **pilotage de donn
 Je transforme les données en **insights stratégiques** pour optimiser les processus et soutenir la décision.
 
 👉 [Mon profil LinkedIn](https://www.linkedin.com/in/pierre-beck/)  
-👉 [Télécharger mon CV (PDF)](./docs/PierreBeck_DataAnalyst.pdf)  
+👉 [Télécharger mon CV (PDF)](./docs/PierreBeck_DataAnalyst.pdf)
 👉 [Site GitHub Pages](./docs/index.html)
 
 ---
