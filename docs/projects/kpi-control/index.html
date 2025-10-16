@@ -1,4 +1,78 @@
-<!doctype html><meta charset="utf-8">
-<title>Test KPI Control</title>
-<h1>OK, la page existe ✅</h1>
-<p>Si vous voyez ceci, le chemin est bon. Le dashboard Plotly viendra remplacer cette page.</p>
+<!doctype html>
+<meta charset="utf-8" />
+<title>Tour de contrôle Recrutement — Démo</title>
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<style>
+  body { font-family: Inter, system-ui, -apple-system, Segoe UI; margin:0; background:#0b1220; color:#eef2ff; }
+  .wrap { max-width:1200px; margin:24px auto; padding:0 16px; }
+  h1 { font-size:28px; margin:8px 0 16px; }
+  .kpis { display:grid; grid-template-columns: repeat(6, 1fr); gap:12px; }
+  .card { background:#111827; border:1px solid #1f2937; border-radius:12px; padding:16px; text-align:center; }
+  .kpi { font-size:22px; font-weight:800; }
+  .label { font-size:12px; color:#9ca3af; margin-top:4px; }
+  .grid { display:grid; grid-template-columns: 1fr 1fr; gap:16px; margin-top:16px; }
+  .full { grid-column: 1/-1; }
+  .box { background:#0f172a; border:1px solid #1f2937; border-radius:12px; padding:12px; }
+  @media (max-width: 900px){ .kpis{grid-template-columns:repeat(2,1fr)} .grid{grid-template-columns:1fr} }
+</style>
+<div class="wrap">
+  <h1>Tour de contrôle Recrutement — Démo</h1>
+  <div class="kpis" id="kpis"></div>
+  <div class="grid">
+    <div class="box" id="funnel"></div>
+    <div class="box" id="mix"></div>
+    <div class="box full" id="tth"></div>
+    <div class="box" id="sla"></div>
+    <div class="box" id="prod"></div>
+  </div>
+</div>
+<script>
+  // --- KPIs démo (remplacés plus tard par la version Python)
+  const KPIS = {
+    "Candidatures": 600,
+    "Hires": 120,
+    "Offer acceptance (%)": 72.5,
+    "TTH médiane (j)": 21,
+    "TTH P90 (j)": 38,
+    "SLA screen 72h (%)": 83.2
+  };
+  document.getElementById('kpis').innerHTML =
+    Object.entries(KPIS).map(([k,v]) => `
+      <div class="card"><div class="kpi">${v}</div><div class="label">${k}</div></div>
+    `).join('');
+
+  // --- Charts démo
+  Plotly.newPlot('funnel', [{
+    type:'funnel',
+    y:['Apply','Screen','Interview','Offer','Hire'],
+    x:[600, 420, 260, 165, 120]
+  }], {title:'Funnel Apply → Hire'});
+
+  Plotly.newPlot('mix', [{
+    type:'pie',
+    labels:['LinkedIn','Jobboard A','Cooptation','Spontanée','Agence'],
+    values:[45,20,15,15,5]
+  }], {title:'Mix des sources'});
+
+  Plotly.newPlot('tth', [{
+    type:'box',
+    x:['Sales','Support','Tech','Ops','Marketing','Sales','Tech','Ops'],
+    y:[19,24,28,22,25,18,35,26]
+  }], {title:'Time-to-Hire par famille de poste'});
+
+  Plotly.newPlot('sla', [{
+    type:'bar',
+    x:['Alice','Bruno','Chloé','Diego'],
+    y:[88,79,85,81],
+    text:[88,79,85,81],
+    textposition:'auto'
+  }], {title:'Respect SLA — Screen < 72h'});
+
+  Plotly.newPlot('prod', [{
+    type:'bar',
+    x:['Alice','Bruno','Chloé','Diego'],
+    y:[36,28,34,22],
+    text:[36,28,34,22],
+    textposition:'auto'
+  }], {title:'Hires par recruteur'});
+</script>
