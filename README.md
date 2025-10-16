@@ -1,4 +1,4 @@
-# Portfolio Data — Pierre BECK
+# Portfolio Recruiting — Pierre BECK
 
 Ce dépôt héberge **mon site de portfolio** (GitHub Pages).
 
