@@ -1,0 +1,601 @@
+application_id,candidate_id,job_id,recruiter,source,applied_at,job_family,source_cost,screened_at,interviewed_at,offered_at,hired_at,sla_screen_72h,sla_offer_7d,offer_accepted,probation_success_90d,stage_outcome
+1,43207,34,Alice,LinkedIn,2025-04-29,Support,9,2025-05-01,,,,1,0,0,0,Post-screen reject
+2,19835,22,Alice,LinkedIn,2024-04-25,Support,9,2024-05-01,,,,0,0,0,0,Post-screen reject
+3,93839,23,Chloé,LinkedIn,2024-10-08,Marketing,9,2024-10-09,,2024-10-17,,1,0,0,0,Offer not accepted
+4,70776,4,Diego,LinkedIn,2024-03-20,Ops,9,,2024-03-25,,,0,0,0,0,Post-interview reject
+5,78641,22,Bruno,LinkedIn,2025-02-22,Support,9,,2025-02-26,2025-03-04,2025-03-11,0,1,1,0,Hired
+6,74192,26,Alice,Candidature Spontanée,2024-10-16,Sales,0,2024-10-20,,2024-10-23,,0,0,0,0,Offer not accepted
+7,69131,21,Alice,LinkedIn,2024-07-20,Ops,9,,2024-07-23,,,0,0,0,0,Post-interview reject
+8,79634,3,Diego,LinkedIn,2024-05-18,Marketing,9,2024-05-20,,2024-05-27,,1,0,0,0,Offer not accepted
+9,10731,19,Chloé,LinkedIn,2024-12-09,Ops,9,,,,,0,0,0,0,Rejected/No-show
+10,87890,33,Alice,LinkedIn,2025-02-11,Support,9,2025-02-15,,,,0,0,0,0,Post-screen reject
+11,76587,26,Bruno,LinkedIn,2025-07-26,Sales,9,,2025-08-02,,,0,0,0,0,Post-interview reject
+12,76548,5,Bruno,Jobboard A,2024-09-23,Sales,6,2024-09-26,,,2024-10-01,1,0,0,1,Hired
+13,45408,34,Alice,LinkedIn,2024-04-07,Support,9,,,,,0,0,0,0,Rejected/No-show
+14,82077,34,Diego,Candidature Spontanée,2025-05-22,Support,0,2025-05-25,,,,1,0,0,0,Post-screen reject
+15,44363,6,Chloé,Candidature Spontanée,2025-01-18,Marketing,0,,2025-01-20,,2025-01-28,0,0,0,0,Hired
+16,14406,29,Alice,LinkedIn,2025-03-02,Sales,9,2025-03-07,2025-03-11,,2025-03-11,0,0,0,0,Hired
+17,91702,15,Chloé,LinkedIn,2024-02-29,Tech,9,,,2024-03-07,,0,0,0,0,Offer not accepted
+18,31107,21,Bruno,LinkedIn,2024-07-09,Ops,9,,2024-07-15,,,0,0,0,0,Post-interview reject
+19,19170,16,Alice,Jobboard A,2025-04-12,Support,6,,,,,0,0,0,0,Rejected/No-show
+20,65970,28,Bruno,LinkedIn,2025-05-21,Sales,9,,2025-05-27,2025-06-01,,0,1,0,0,Offer not accepted
+21,31028,35,Alice,Candidature Spontanée,2024-09-22,Tech,0,,,2024-09-28,,0,0,0,0,Offer not accepted
+22,87230,28,Alice,Cooptation,2025-05-05,Sales,2,2025-05-10,,,,0,0,0,0,Post-screen reject
+23,49937,33,Diego,Candidature Spontanée,2025-05-27,Support,0,2025-05-30,,,,1,0,0,0,Post-screen reject
+24,10405,34,Chloé,Jobboard A,2024-08-23,Support,6,2024-08-29,,,,0,0,0,0,Post-screen reject
+25,95653,4,Alice,Agence,2025-06-30,Ops,18,2025-07-03,2025-07-11,,,1,0,0,0,Post-interview reject
+26,56316,9,Diego,LinkedIn,2024-06-24,Sales,9,,,,,0,0,0,0,Rejected/No-show
+27,33667,26,Chloé,LinkedIn,2024-05-25,Sales,9,,2024-05-28,,2024-06-02,0,0,0,1,Hired
+28,70955,21,Diego,LinkedIn,2025-02-19,Ops,9,,,,2025-03-01,0,0,0,0,Hired
+29,57754,2,Chloé,Candidature Spontanée,2025-01-22,Tech,0,,,,,0,0,0,0,Rejected/No-show
+30,12664,4,Bruno,Jobboard A,2024-03-26,Ops,6,,,2024-04-02,,0,0,0,0,Offer not accepted
+31,78367,19,Chloé,Candidature Spontanée,2025-05-22,Ops,0,,,2025-05-31,2025-06-07,0,0,1,1,Hired
+32,46121,22,Chloé,LinkedIn,2024-05-01,Support,9,,,,,0,0,0,0,Rejected/No-show
+33,72982,6,Chloé,Agence,2025-05-05,Marketing,18,2025-05-06,2025-05-13,,2025-05-12,1,0,0,1,Hired
+34,90606,6,Alice,Jobboard A,2024-01-05,Marketing,6,,,,,0,0,0,0,Rejected/No-show
+35,64954,5,Bruno,Jobboard A,2025-04-30,Sales,6,,,,,0,0,0,0,Rejected/No-show
+36,70444,20,Alice,Agence,2025-04-24,Tech,18,2025-04-25,2025-05-03,,,1,0,0,0,Post-interview reject
+37,32918,1,Bruno,LinkedIn,2025-04-20,Ops,9,2025-04-22,,,,1,0,0,0,Post-screen reject
+38,31389,21,Alice,LinkedIn,2025-02-08,Ops,9,,2025-02-13,2025-02-27,2025-03-05,0,0,1,1,Hired
+39,47349,17,Alice,Jobboard A,2024-10-14,Tech,6,,2024-10-18,2024-10-27,,0,0,0,0,Offer not accepted
+40,86749,17,Diego,LinkedIn,2025-03-05,Tech,9,,2025-03-11,2025-03-18,,0,1,0,0,Offer not accepted
+41,57176,24,Alice,LinkedIn,2024-06-17,Marketing,9,,2024-06-24,,,0,0,0,0,Post-interview reject
+42,41322,19,Diego,LinkedIn,2025-04-20,Ops,9,2025-04-25,,,,0,0,0,0,Post-screen reject
+43,80164,26,Alice,LinkedIn,2024-12-04,Sales,9,2024-12-08,,,,0,0,0,0,Post-screen reject
+44,86800,27,Diego,Candidature Spontanée,2024-10-06,Tech,0,,,,,0,0,0,0,Rejected/No-show
+45,91227,33,Bruno,Jobboard A,2024-11-03,Support,6,,,,,0,0,0,0,Rejected/No-show
+46,36904,28,Chloé,LinkedIn,2024-12-12,Sales,9,,,,,0,0,0,0,Rejected/No-show
+47,73866,19,Bruno,LinkedIn,2024-01-23,Ops,9,,,,,0,0,0,0,Rejected/No-show
+48,63128,18,Bruno,LinkedIn,2024-03-26,Sales,9,2024-03-29,2024-03-31,,,1,0,0,0,Post-interview reject
+49,50407,9,Bruno,Jobboard A,2024-05-29,Sales,6,,,,,0,0,0,0,Rejected/No-show
+50,45724,21,Chloé,Candidature Spontanée,2024-03-10,Ops,0,2024-03-13,2024-03-20,,,1,0,0,0,Post-interview reject
+51,20309,5,Bruno,Candidature Spontanée,2024-09-24,Sales,0,2024-09-30,,,,0,0,0,0,Post-screen reject
+52,34733,33,Chloé,LinkedIn,2025-02-11,Support,9,2025-02-15,,,,0,0,0,0,Post-screen reject
+53,59469,30,Diego,LinkedIn,2025-02-02,Ops,9,2025-02-03,,,,1,0,0,0,Post-screen reject
+54,89789,5,Bruno,Jobboard A,2024-10-13,Sales,6,,,,2024-10-21,0,0,0,1,Hired
+55,87969,28,Bruno,Jobboard A,2025-06-04,Sales,6,2025-06-05,2025-06-08,,,1,0,0,0,Post-interview reject
+56,26883,5,Alice,Jobboard A,2024-12-10,Sales,6,2024-12-13,,2024-12-20,,1,0,0,0,Offer not accepted
+57,71138,26,Bruno,Cooptation,2024-02-18,Sales,2,,,,,0,0,0,0,Rejected/No-show
+58,17632,4,Alice,Jobboard A,2025-04-10,Ops,6,,,,,0,0,0,0,Rejected/No-show
+59,70750,18,Alice,LinkedIn,2024-12-15,Sales,9,2024-12-18,,2024-12-27,,1,0,0,0,Offer not accepted
+60,40773,24,Diego,LinkedIn,2025-01-21,Marketing,9,2025-01-27,,,,0,0,0,0,Post-screen reject
+61,50485,26,Alice,LinkedIn,2024-12-10,Sales,9,2024-12-14,,2024-12-18,,0,0,0,0,Offer not accepted
+62,74586,15,Bruno,LinkedIn,2024-12-03,Tech,9,,2024-12-10,,2024-12-04,0,0,0,1,Hired
+63,48239,33,Diego,LinkedIn,2024-02-25,Support,9,2024-03-01,,,,0,0,0,0,Post-screen reject
+64,82668,28,Diego,Cooptation,2024-12-06,Sales,2,2024-12-10,,2024-12-14,,0,0,0,0,Offer not accepted
+65,58021,8,Alice,LinkedIn,2025-04-29,Ops,9,2025-05-02,,,,1,0,0,0,Post-screen reject
+66,99885,24,Alice,LinkedIn,2024-07-04,Marketing,9,,,,,0,0,0,0,Rejected/No-show
+67,67441,26,Bruno,Jobboard A,2025-01-02,Sales,6,2025-01-06,2025-01-16,,,0,0,0,0,Post-interview reject
+68,36672,12,Chloé,Cooptation,2024-01-19,Marketing,2,,,,,0,0,0,0,Rejected/No-show
+69,79775,26,Diego,LinkedIn,2024-07-30,Sales,9,2024-08-03,2024-08-09,,,0,0,0,0,Post-interview reject
+70,46714,32,Alice,Candidature Spontanée,2024-09-22,Marketing,0,,2024-09-30,,,0,0,0,0,Post-interview reject
+71,58074,29,Alice,Candidature Spontanée,2025-08-21,Sales,0,2025-08-26,,,,0,0,0,0,Post-screen reject
+72,22313,27,Bruno,Jobboard A,2024-05-10,Tech,6,2024-05-12,2024-05-16,2024-05-21,,1,1,0,0,Offer not accepted
+73,20740,23,Diego,Cooptation,2024-06-17,Marketing,2,2024-06-21,2024-07-01,,,0,0,0,0,Post-interview reject
+74,61737,10,Alice,LinkedIn,2024-09-05,Tech,9,,2024-09-14,,,0,0,0,0,Post-interview reject
+75,26801,28,Bruno,Candidature Spontanée,2025-08-27,Sales,0,,,,,0,0,0,0,Rejected/No-show
+76,99781,13,Alice,LinkedIn,2025-06-03,Tech,9,2025-06-05,,,,1,0,0,0,Post-screen reject
+77,87009,19,Alice,Candidature Spontanée,2024-01-22,Ops,0,2024-01-27,,,,0,0,0,0,Post-screen reject
+78,73078,12,Diego,Jobboard A,2024-05-22,Marketing,6,,2024-06-01,2024-06-14,,0,0,0,0,Offer not accepted
+79,76122,11,Alice,LinkedIn,2025-05-15,Support,9,,,,,0,0,0,0,Rejected/No-show
+80,63568,6,Bruno,LinkedIn,2024-02-05,Marketing,9,2024-02-10,,,,0,0,0,0,Post-screen reject
+81,15426,34,Diego,Cooptation,2025-06-05,Support,2,2025-06-09,,2025-06-18,,0,0,0,0,Offer not accepted
+82,45312,6,Chloé,Jobboard A,2024-06-20,Marketing,6,,,,2024-06-26,0,0,0,1,Hired
+83,54621,4,Alice,LinkedIn,2025-07-12,Ops,9,,,,,0,0,0,0,Rejected/No-show
+84,92375,33,Bruno,Cooptation,2024-06-27,Support,2,,,2024-07-02,2024-07-07,0,0,1,1,Hired
+85,29753,20,Diego,Candidature Spontanée,2024-09-21,Tech,0,,,2024-09-28,,0,0,0,0,Offer not accepted
+86,54721,16,Bruno,Jobboard A,2025-02-07,Support,6,,,,,0,0,0,0,Rejected/No-show
+87,40965,26,Chloé,Jobboard A,2024-03-17,Sales,6,2024-03-23,,,,0,0,0,0,Post-screen reject
+88,22092,14,Chloé,LinkedIn,2024-12-05,Ops,9,,,2024-12-11,,0,0,0,0,Offer not accepted
+89,19271,5,Chloé,Cooptation,2024-11-03,Sales,2,2024-11-07,,,2024-11-13,0,0,0,1,Hired
+90,42883,26,Alice,LinkedIn,2025-04-22,Sales,9,2025-04-23,2025-05-01,,,1,0,0,0,Post-interview reject
+91,17417,7,Diego,Candidature Spontanée,2025-08-29,Ops,0,2025-09-02,,,,0,0,0,0,Post-screen reject
+92,16044,20,Diego,LinkedIn,2025-02-08,Tech,9,2025-02-13,,,,0,0,0,0,Post-screen reject
+93,41577,34,Alice,Jobboard A,2024-09-06,Support,6,,2024-09-13,,2024-09-07,0,0,0,1,Hired
+94,28177,33,Diego,LinkedIn,2024-09-04,Support,9,2024-09-05,,,2024-09-11,1,0,0,0,Hired
+95,59932,13,Diego,LinkedIn,2024-09-11,Tech,9,2024-09-12,2024-09-18,2024-10-02,,1,0,0,0,Offer not accepted
+96,11590,28,Chloé,Cooptation,2025-05-10,Sales,2,,,,,0,0,0,0,Rejected/No-show
+97,37162,22,Bruno,Jobboard A,2024-07-14,Support,6,,2024-07-24,2024-07-27,,0,1,0,0,Offer not accepted
+98,50794,17,Bruno,Jobboard A,2024-04-11,Tech,6,,,,2024-04-13,0,0,0,1,Hired
+99,96682,5,Diego,Agence,2024-07-22,Sales,18,,2024-07-31,2024-08-05,,0,1,0,0,Offer not accepted
+100,67107,14,Alice,Agence,2024-01-14,Ops,18,,,,,0,0,0,0,Rejected/No-show
+101,89263,23,Diego,Candidature Spontanée,2024-03-05,Marketing,0,2024-03-07,,2024-03-11,,1,0,0,0,Offer not accepted
+102,40895,35,Diego,LinkedIn,2024-02-24,Tech,9,2024-03-01,2024-03-06,,,0,0,0,0,Post-interview reject
+103,50473,1,Chloé,Jobboard A,2025-04-14,Ops,6,,,2025-04-23,,0,0,0,0,Offer not accepted
+104,47833,26,Bruno,Candidature Spontanée,2025-03-15,Sales,0,2025-03-19,,,,0,0,0,0,Post-screen reject
+105,89864,30,Chloé,LinkedIn,2025-02-28,Ops,9,2025-03-06,,,,0,0,0,0,Post-screen reject
+106,96327,34,Alice,LinkedIn,2024-10-08,Support,9,2024-10-14,2024-10-16,2024-10-21,,0,1,0,0,Offer not accepted
+107,96609,15,Diego,Candidature Spontanée,2025-03-12,Tech,0,2025-03-16,,,,0,0,0,0,Post-screen reject
+108,77675,5,Bruno,Jobboard A,2024-04-08,Sales,6,2024-04-13,2024-04-15,,2024-04-17,0,0,0,0,Hired
+109,55279,10,Alice,Jobboard A,2025-07-02,Tech,6,2025-07-04,2025-07-08,,2025-07-11,1,0,0,1,Hired
+110,58676,30,Diego,Agence,2024-11-01,Ops,18,,,,2024-11-04,0,0,0,1,Hired
+111,98244,31,Chloé,Jobboard A,2025-07-25,Ops,6,,,,,0,0,0,0,Rejected/No-show
+112,35608,23,Chloé,LinkedIn,2024-04-02,Marketing,9,2024-04-03,,2024-04-11,,1,0,0,0,Offer not accepted
+113,41203,5,Alice,LinkedIn,2024-10-29,Sales,9,,2024-10-31,,2024-11-07,0,0,0,1,Hired
+114,90728,5,Diego,LinkedIn,2025-02-28,Sales,9,2025-03-03,,2025-03-11,,1,0,0,0,Offer not accepted
+115,44768,17,Chloé,LinkedIn,2024-10-28,Tech,9,,,,,0,0,0,0,Rejected/No-show
+116,31158,21,Diego,Cooptation,2024-09-28,Ops,2,,,,,0,0,0,0,Rejected/No-show
+117,60441,2,Diego,Candidature Spontanée,2024-04-11,Tech,0,2024-04-15,,,,0,0,0,0,Post-screen reject
+118,39280,25,Alice,LinkedIn,2024-08-20,Ops,9,,2024-08-23,,,0,0,0,0,Post-interview reject
+119,90177,20,Alice,LinkedIn,2024-05-25,Tech,9,,2024-05-27,,,0,0,0,0,Post-interview reject
+120,91814,1,Diego,Candidature Spontanée,2024-07-02,Ops,0,,,,,0,0,0,0,Rejected/No-show
+121,37540,4,Chloé,LinkedIn,2025-02-20,Ops,9,,,,,0,0,0,0,Rejected/No-show
+122,57658,16,Bruno,Jobboard A,2025-01-18,Support,6,,2025-01-28,2025-02-09,,0,0,0,0,Offer not accepted
+123,98558,26,Bruno,Jobboard A,2025-01-04,Sales,6,2025-01-06,2025-01-08,,,1,0,0,0,Post-interview reject
+124,76807,29,Chloé,Cooptation,2024-08-08,Sales,2,,2024-08-15,,,0,0,0,0,Post-interview reject
+125,29406,16,Diego,LinkedIn,2025-08-07,Support,9,,,,2025-08-12,0,0,0,1,Hired
+126,63166,11,Alice,Cooptation,2024-02-23,Support,2,,2024-02-28,2024-03-03,,0,1,0,0,Offer not accepted
+127,65789,34,Chloé,LinkedIn,2024-07-27,Support,9,2024-07-29,,,,1,0,0,0,Post-screen reject
+128,68808,17,Diego,Jobboard A,2024-03-12,Tech,6,,,2024-03-16,,0,0,0,0,Offer not accepted
+129,12250,12,Bruno,LinkedIn,2024-07-25,Marketing,9,2024-07-26,2024-07-29,2024-08-02,,1,1,0,0,Offer not accepted
+130,36944,16,Bruno,Jobboard A,2025-08-08,Support,6,,,2025-08-21,,0,0,0,0,Offer not accepted
+131,86914,1,Diego,Jobboard A,2024-08-11,Ops,6,2024-08-16,,,,0,0,0,0,Post-screen reject
+132,31723,11,Alice,LinkedIn,2025-07-07,Support,9,,,,,0,0,0,0,Rejected/No-show
+133,36972,19,Bruno,LinkedIn,2024-10-28,Ops,9,,2024-11-05,,,0,0,0,0,Post-interview reject
+134,39023,33,Bruno,LinkedIn,2025-03-02,Support,9,,,,,0,0,0,0,Rejected/No-show
+135,25964,26,Diego,LinkedIn,2024-10-05,Sales,9,,2024-10-15,,,0,0,0,0,Post-interview reject
+136,23989,28,Alice,LinkedIn,2024-06-10,Sales,9,2024-06-16,,,,0,0,0,0,Post-screen reject
+137,41231,20,Bruno,Candidature Spontanée,2025-04-10,Tech,0,,,,,0,0,0,0,Rejected/No-show
+138,88687,4,Alice,LinkedIn,2025-08-13,Ops,9,,2025-08-22,,,0,0,0,0,Post-interview reject
+139,10138,14,Diego,Candidature Spontanée,2024-06-09,Ops,0,2024-06-14,,,,0,0,0,0,Post-screen reject
+140,35491,35,Chloé,Agence,2025-04-19,Tech,18,2025-04-22,,2025-04-29,,1,0,0,0,Offer not accepted
+141,15456,2,Bruno,LinkedIn,2024-06-08,Tech,9,2024-06-12,2024-06-22,2024-07-01,,0,0,0,0,Offer not accepted
+142,60533,31,Bruno,Cooptation,2025-03-12,Ops,2,,2025-03-19,,,0,0,0,0,Post-interview reject
+143,32553,24,Alice,Candidature Spontanée,2025-04-25,Marketing,0,,,,,0,0,0,0,Rejected/No-show
+144,81276,10,Diego,Jobboard A,2024-09-30,Tech,6,,2024-10-08,,,0,0,0,0,Post-interview reject
+145,62650,28,Chloé,LinkedIn,2025-03-24,Sales,9,2025-03-30,2025-04-02,,2025-04-03,0,0,0,0,Hired
+146,80543,30,Bruno,LinkedIn,2024-06-14,Ops,9,,,2024-06-26,,0,0,0,0,Offer not accepted
+147,67141,2,Bruno,LinkedIn,2024-02-18,Tech,9,2024-02-22,2024-03-02,,,0,0,0,0,Post-interview reject
+148,49454,4,Chloé,Jobboard A,2024-02-28,Ops,6,,,,,0,0,0,0,Rejected/No-show
+149,87486,24,Chloé,Agence,2024-09-29,Marketing,18,2024-10-01,,,,1,0,0,0,Post-screen reject
+150,52862,35,Bruno,Agence,2025-07-03,Tech,18,,,2025-07-13,,0,0,0,0,Offer not accepted
+151,95493,1,Bruno,LinkedIn,2024-03-18,Ops,9,,2024-03-26,,,0,0,0,0,Post-interview reject
+152,99522,24,Chloé,Cooptation,2024-10-04,Marketing,2,2024-10-07,,,,1,0,0,0,Post-screen reject
+153,63011,5,Chloé,LinkedIn,2025-03-04,Sales,9,,2025-03-08,,,0,0,0,0,Post-interview reject
+154,70713,23,Chloé,Candidature Spontanée,2024-05-03,Marketing,0,,,,,0,0,0,0,Rejected/No-show
+155,33009,22,Alice,LinkedIn,2025-03-15,Support,9,2025-03-20,2025-03-25,,2025-03-23,0,0,0,1,Hired
+156,83316,4,Bruno,Candidature Spontanée,2024-07-05,Ops,0,2024-07-08,,,,1,0,0,0,Post-screen reject
+157,70442,24,Chloé,Candidature Spontanée,2025-05-07,Marketing,0,,2025-05-14,,,0,0,0,0,Post-interview reject
+158,91228,32,Diego,LinkedIn,2024-12-18,Marketing,9,2024-12-24,2024-12-26,,,0,0,0,0,Post-interview reject
+159,34030,31,Chloé,LinkedIn,2024-11-29,Ops,9,2024-12-05,,,,0,0,0,0,Post-screen reject
+160,80882,2,Bruno,Candidature Spontanée,2024-04-17,Tech,0,2024-04-18,2024-04-27,,,1,0,0,0,Post-interview reject
+161,52324,9,Chloé,LinkedIn,2024-10-09,Sales,9,,2024-10-13,,,0,0,0,0,Post-interview reject
+162,26665,9,Alice,Jobboard A,2025-06-05,Sales,6,2025-06-10,,,2025-06-06,0,0,0,1,Hired
+163,25407,16,Alice,Candidature Spontanée,2024-01-12,Support,0,2024-01-15,,,,1,0,0,0,Post-screen reject
+164,60594,6,Chloé,Jobboard A,2025-04-06,Marketing,6,,2025-04-08,,,0,0,0,0,Post-interview reject
+165,38750,30,Diego,LinkedIn,2024-10-27,Ops,9,,,,,0,0,0,0,Rejected/No-show
+166,19170,28,Diego,LinkedIn,2025-03-14,Sales,9,,,,2025-03-17,0,0,0,1,Hired
+167,48442,29,Chloé,LinkedIn,2025-02-07,Sales,9,2025-02-11,,,,0,0,0,0,Post-screen reject
+168,68762,7,Alice,Agence,2024-09-20,Ops,18,,,,,0,0,0,0,Rejected/No-show
+169,38705,1,Diego,LinkedIn,2024-07-06,Ops,9,,,,,0,0,0,0,Rejected/No-show
+170,95980,32,Bruno,LinkedIn,2025-01-17,Marketing,9,2025-01-19,,,,1,0,0,0,Post-screen reject
+171,80158,11,Bruno,LinkedIn,2024-03-26,Support,9,,,,,0,0,0,0,Rejected/No-show
+172,56145,23,Diego,Agence,2024-12-21,Marketing,18,,,,,0,0,0,0,Rejected/No-show
+173,94117,32,Chloé,LinkedIn,2024-02-27,Marketing,9,2024-03-01,2024-03-05,,,1,0,0,0,Post-interview reject
+174,48967,2,Chloé,Candidature Spontanée,2025-01-30,Tech,0,2025-02-01,2025-02-10,,,1,0,0,0,Post-interview reject
+175,22570,1,Bruno,Cooptation,2025-01-17,Ops,2,,2025-01-21,,2025-01-22,0,0,0,1,Hired
+176,13225,1,Diego,Candidature Spontanée,2024-02-21,Ops,0,2024-02-22,,2024-02-26,,1,0,0,0,Offer not accepted
+177,94421,6,Bruno,Agence,2025-04-06,Marketing,18,2025-04-11,,,2025-04-09,0,0,0,1,Hired
+178,96378,2,Chloé,Candidature Spontanée,2024-09-10,Tech,0,2024-09-11,,,,1,0,0,0,Post-screen reject
+179,76531,29,Diego,Candidature Spontanée,2025-04-24,Sales,0,2025-04-27,,2025-05-03,,1,0,0,0,Offer not accepted
+180,19270,22,Chloé,LinkedIn,2024-01-26,Support,9,2024-01-28,,,,1,0,0,0,Post-screen reject
+181,36428,35,Alice,Cooptation,2024-04-19,Tech,2,,2024-04-25,,,0,0,0,0,Post-interview reject
+182,13697,29,Bruno,Jobboard A,2024-10-27,Sales,6,2024-10-28,,2024-11-07,,1,0,0,0,Offer not accepted
+183,14612,34,Bruno,Jobboard A,2024-04-24,Support,6,2024-04-27,,,,1,0,0,0,Post-screen reject
+184,32145,9,Diego,Candidature Spontanée,2024-07-19,Sales,0,,2024-07-28,,,0,0,0,0,Post-interview reject
+185,61492,11,Chloé,Agence,2025-02-06,Support,18,2025-02-12,,,,0,0,0,0,Post-screen reject
+186,15897,30,Bruno,Cooptation,2024-03-29,Ops,2,,2024-03-31,,2024-03-31,0,0,0,1,Hired
+187,98613,9,Chloé,Jobboard A,2025-02-16,Sales,6,2025-02-22,,,,0,0,0,0,Post-screen reject
+188,50960,3,Chloé,Jobboard A,2024-03-03,Marketing,6,2024-03-06,,,,1,0,0,0,Post-screen reject
+189,33745,24,Bruno,LinkedIn,2024-04-16,Marketing,9,2024-04-20,2024-04-28,,,0,0,0,0,Post-interview reject
+190,56447,29,Bruno,LinkedIn,2024-12-23,Sales,9,2024-12-29,2025-01-02,2025-01-05,,0,1,0,0,Offer not accepted
+191,81113,34,Diego,LinkedIn,2025-04-28,Support,9,2025-04-30,2025-05-08,,,1,0,0,0,Post-interview reject
+192,38130,33,Chloé,LinkedIn,2024-04-13,Support,9,,2024-04-16,,,0,0,0,0,Post-interview reject
+193,14276,5,Alice,LinkedIn,2024-07-01,Sales,9,2024-07-07,,,,0,0,0,0,Post-screen reject
+194,14586,28,Chloé,Cooptation,2025-07-17,Sales,2,,2025-07-20,,,0,0,0,0,Post-interview reject
+195,86677,30,Chloé,LinkedIn,2025-08-25,Ops,9,,2025-09-03,,,0,0,0,0,Post-interview reject
+196,20043,25,Chloé,Candidature Spontanée,2024-12-19,Ops,0,2024-12-20,,,,1,0,0,0,Post-screen reject
+197,67200,29,Chloé,Jobboard A,2024-09-29,Sales,6,,,,,0,0,0,0,Rejected/No-show
+198,44605,30,Diego,LinkedIn,2024-07-30,Ops,9,2024-08-01,,,,1,0,0,0,Post-screen reject
+199,79975,16,Bruno,LinkedIn,2025-01-07,Support,9,2025-01-10,,,,1,0,0,0,Post-screen reject
+200,15447,2,Bruno,LinkedIn,2024-12-25,Tech,9,2024-12-26,2025-01-04,,,1,0,0,0,Post-interview reject
+201,90800,16,Alice,Agence,2024-06-28,Support,18,,,,2024-07-08,0,0,0,1,Hired
+202,72836,8,Chloé,LinkedIn,2024-01-14,Ops,9,,2024-01-24,,,0,0,0,0,Post-interview reject
+203,50434,4,Bruno,Jobboard A,2024-04-02,Ops,6,2024-04-07,,,,0,0,0,0,Post-screen reject
+204,28631,5,Bruno,Candidature Spontanée,2025-08-06,Sales,0,,,,,0,0,0,0,Rejected/No-show
+205,97941,25,Chloé,Agence,2024-09-11,Ops,18,,,2024-09-21,,0,0,0,0,Offer not accepted
+206,37186,18,Bruno,LinkedIn,2024-10-20,Sales,9,2024-10-26,,,2024-10-29,0,0,0,1,Hired
+207,54145,19,Bruno,LinkedIn,2024-10-11,Ops,9,,,,2024-10-16,0,0,0,1,Hired
+208,45470,27,Bruno,LinkedIn,2025-04-21,Tech,9,,2025-04-29,,2025-04-24,0,0,0,1,Hired
+209,30749,20,Bruno,LinkedIn,2024-02-09,Tech,9,,,,,0,0,0,0,Rejected/No-show
+210,47494,23,Alice,LinkedIn,2024-02-20,Marketing,9,,,2024-02-28,2024-03-01,0,0,1,1,Hired
+211,23633,4,Diego,Jobboard A,2024-06-16,Ops,6,2024-06-19,,,,1,0,0,0,Post-screen reject
+212,10149,30,Alice,Candidature Spontanée,2024-10-23,Ops,0,2024-10-29,,,,0,0,0,0,Post-screen reject
+213,36099,16,Bruno,Jobboard A,2025-02-12,Support,6,,2025-02-18,,,0,0,0,0,Post-interview reject
+214,20086,6,Chloé,Jobboard A,2024-10-25,Marketing,6,2024-10-30,,2024-10-28,,0,0,0,0,Offer not accepted
+215,47329,29,Alice,LinkedIn,2024-09-25,Sales,9,2024-09-30,2024-10-03,2024-10-09,,0,1,0,0,Offer not accepted
+216,87647,26,Chloé,Candidature Spontanée,2025-07-25,Sales,0,,2025-07-29,,2025-08-04,0,0,0,1,Hired
+217,24631,2,Chloé,Jobboard A,2024-04-08,Tech,6,2024-04-13,2024-04-20,,,0,0,0,0,Post-interview reject
+218,10110,7,Chloé,Candidature Spontanée,2024-12-14,Ops,0,2024-12-18,,2024-12-22,,0,0,0,0,Offer not accepted
+219,19998,1,Bruno,Candidature Spontanée,2024-11-26,Ops,0,,2024-12-01,2024-12-08,2024-12-12,0,1,1,1,Hired
+220,55734,10,Alice,LinkedIn,2024-10-15,Tech,9,2024-10-16,2024-10-22,,,1,0,0,0,Post-interview reject
+221,34735,4,Diego,LinkedIn,2025-05-06,Ops,9,,2025-05-09,2025-05-15,,0,1,0,0,Offer not accepted
+222,54054,25,Bruno,LinkedIn,2024-06-11,Ops,9,,,,2024-06-12,0,0,0,1,Hired
+223,12632,19,Diego,LinkedIn,2025-08-03,Ops,9,,,,,0,0,0,0,Rejected/No-show
+224,39978,35,Alice,Candidature Spontanée,2024-07-20,Tech,0,2024-07-26,2024-07-31,2024-08-10,,0,0,0,0,Offer not accepted
+225,46911,27,Alice,LinkedIn,2024-11-27,Tech,9,2024-12-01,2024-12-05,,,0,0,0,0,Post-interview reject
+226,48819,22,Diego,Cooptation,2024-11-13,Support,2,,,2024-11-20,,0,0,0,0,Offer not accepted
+227,59603,18,Diego,Jobboard A,2025-06-01,Sales,6,2025-06-07,2025-06-10,,2025-06-05,0,0,0,1,Hired
+228,80251,2,Diego,LinkedIn,2024-09-24,Tech,9,2024-09-30,,,,0,0,0,0,Post-screen reject
+229,52050,3,Diego,LinkedIn,2024-06-22,Marketing,9,2024-06-24,,,,1,0,0,0,Post-screen reject
+230,85707,22,Alice,Cooptation,2024-01-14,Support,2,2024-01-17,,,,1,0,0,0,Post-screen reject
+231,57675,1,Diego,Cooptation,2024-08-09,Ops,2,,2024-08-12,2024-08-20,,0,0,0,0,Offer not accepted
+232,33431,2,Chloé,LinkedIn,2025-05-18,Tech,9,2025-05-20,,,,1,0,0,0,Post-screen reject
+233,30611,8,Alice,LinkedIn,2024-01-07,Ops,9,,2024-01-13,,2024-01-12,0,0,0,1,Hired
+234,39023,31,Alice,Cooptation,2025-06-29,Ops,2,2025-06-30,,,,1,0,0,0,Post-screen reject
+235,63771,17,Diego,LinkedIn,2024-11-26,Tech,9,2024-12-02,,,2024-12-03,0,0,0,1,Hired
+236,31823,25,Bruno,Candidature Spontanée,2024-03-26,Ops,0,,,2024-04-07,,0,0,0,0,Offer not accepted
+237,92274,15,Diego,LinkedIn,2024-07-03,Tech,9,2024-07-09,,,2024-07-07,0,0,0,1,Hired
+238,53187,7,Alice,LinkedIn,2024-12-03,Ops,9,2024-12-09,2024-12-14,,,0,0,0,0,Post-interview reject
+239,87693,13,Bruno,Jobboard A,2024-07-11,Tech,6,,,,,0,0,0,0,Rejected/No-show
+240,71492,4,Bruno,Jobboard A,2024-03-07,Ops,6,2024-03-13,,,,0,0,0,0,Post-screen reject
+241,40001,27,Bruno,Jobboard A,2025-02-09,Tech,6,,2025-02-11,,2025-02-19,0,0,0,1,Hired
+242,30542,7,Chloé,LinkedIn,2025-02-13,Ops,9,,,,,0,0,0,0,Rejected/No-show
+243,76954,14,Diego,Agence,2024-03-13,Ops,18,2024-03-17,,,2024-03-20,0,0,0,1,Hired
+244,39765,35,Diego,Jobboard A,2024-06-20,Tech,6,2024-06-24,,,,0,0,0,0,Post-screen reject
+245,32217,21,Chloé,Jobboard A,2024-05-28,Ops,6,2024-06-03,,,,0,0,0,0,Post-screen reject
+246,93733,17,Alice,LinkedIn,2025-02-05,Tech,9,2025-02-09,,,,0,0,0,0,Post-screen reject
+247,53436,20,Diego,LinkedIn,2025-03-20,Tech,9,2025-03-24,,,2025-03-30,0,0,0,1,Hired
+248,14371,28,Chloé,Jobboard A,2025-03-18,Sales,6,,2025-03-24,,,0,0,0,0,Post-interview reject
+249,54528,9,Chloé,LinkedIn,2025-07-25,Sales,9,2025-07-27,2025-07-30,,,1,0,0,0,Post-interview reject
+250,51468,23,Chloé,Jobboard A,2025-04-13,Marketing,6,,2025-04-15,,,0,0,0,0,Post-interview reject
+251,87756,31,Diego,LinkedIn,2024-07-14,Ops,9,2024-07-19,,2024-07-18,2024-07-22,0,0,1,1,Hired
+252,74039,21,Diego,Agence,2024-03-06,Ops,18,2024-03-11,,,,0,0,0,0,Post-screen reject
+253,27221,16,Chloé,Jobboard A,2025-01-09,Support,6,2025-01-14,,,,0,0,0,0,Post-screen reject
+254,23540,6,Chloé,Candidature Spontanée,2025-07-11,Marketing,0,,2025-07-14,,2025-07-18,0,0,0,1,Hired
+255,64322,9,Chloé,Jobboard A,2025-08-16,Sales,6,2025-08-19,2025-08-25,,2025-08-20,1,0,0,1,Hired
+256,14263,34,Bruno,LinkedIn,2024-05-20,Support,9,2024-05-22,,,,1,0,0,0,Post-screen reject
+257,38711,19,Bruno,Candidature Spontanée,2024-05-24,Ops,0,,2024-06-03,,,0,0,0,0,Post-interview reject
+258,22438,11,Chloé,Jobboard A,2024-01-23,Support,6,,2024-01-27,,,0,0,0,0,Post-interview reject
+259,11850,15,Alice,Cooptation,2024-03-27,Tech,2,2024-03-28,,2024-04-03,,1,0,0,0,Offer not accepted
+260,92693,21,Bruno,LinkedIn,2024-12-03,Ops,9,,2024-12-07,,,0,0,0,0,Post-interview reject
+261,18083,19,Chloé,Jobboard A,2024-11-29,Ops,6,2024-12-03,2024-12-07,,,0,0,0,0,Post-interview reject
+262,10833,25,Diego,Candidature Spontanée,2024-08-13,Ops,0,2024-08-18,,,,0,0,0,0,Post-screen reject
+263,93959,10,Chloé,Jobboard A,2024-07-07,Tech,6,2024-07-12,,,,0,0,0,0,Post-screen reject
+264,26948,23,Bruno,LinkedIn,2025-05-20,Marketing,9,2025-05-26,2025-05-31,,,0,0,0,0,Post-interview reject
+265,83489,16,Bruno,Cooptation,2024-10-07,Support,2,2024-10-10,,,,1,0,0,0,Post-screen reject
+266,12815,33,Chloé,Cooptation,2025-05-07,Support,2,,,,,0,0,0,0,Rejected/No-show
+267,23819,6,Chloé,Agence,2025-08-09,Marketing,18,2025-08-14,,2025-08-12,2025-08-19,0,0,1,1,Hired
+268,19956,6,Alice,LinkedIn,2024-07-12,Marketing,9,,,,,0,0,0,0,Rejected/No-show
+269,73562,17,Chloé,LinkedIn,2024-05-03,Tech,9,,,,,0,0,0,0,Rejected/No-show
+270,65812,18,Bruno,Candidature Spontanée,2025-08-03,Sales,0,,,,,0,0,0,0,Rejected/No-show
+271,52794,25,Chloé,Jobboard A,2025-01-21,Ops,6,,,,2025-01-29,0,0,0,1,Hired
+272,31747,15,Diego,Cooptation,2024-06-26,Tech,2,,,,2024-06-30,0,0,0,1,Hired
+273,17997,32,Diego,Jobboard A,2025-01-13,Marketing,6,,2025-01-21,,,0,0,0,0,Post-interview reject
+274,61228,17,Chloé,LinkedIn,2024-11-09,Tech,9,2024-11-14,2024-11-18,,,0,0,0,0,Post-interview reject
+275,30764,5,Bruno,Cooptation,2025-07-05,Sales,2,2025-07-07,,,2025-07-15,1,0,0,1,Hired
+276,63116,5,Bruno,LinkedIn,2024-06-04,Sales,9,,2024-06-11,,2024-06-13,0,0,0,1,Hired
+277,71871,35,Alice,LinkedIn,2025-08-26,Tech,9,,2025-09-05,,,0,0,0,0,Post-interview reject
+278,86448,5,Diego,Jobboard A,2025-07-24,Sales,6,2025-07-30,,,,0,0,0,0,Post-screen reject
+279,54458,34,Diego,Cooptation,2024-04-20,Support,2,,,,,0,0,0,0,Rejected/No-show
+280,10426,10,Diego,Candidature Spontanée,2024-04-10,Tech,0,2024-04-11,2024-04-21,,,1,0,0,0,Post-interview reject
+281,35259,4,Bruno,LinkedIn,2024-11-20,Ops,9,,,2024-12-04,,0,0,0,0,Offer not accepted
+282,86802,11,Bruno,LinkedIn,2024-01-28,Support,9,2024-02-01,,2024-02-02,,0,0,0,0,Offer not accepted
+283,57992,22,Diego,Agence,2024-06-30,Support,18,2024-07-06,2024-07-13,,,0,0,0,0,Post-interview reject
+284,65720,15,Chloé,LinkedIn,2024-09-21,Tech,9,2024-09-25,2024-10-03,,,0,0,0,0,Post-interview reject
+285,51203,28,Chloé,LinkedIn,2025-08-13,Sales,9,2025-08-19,2025-08-29,,,0,0,0,0,Post-interview reject
+286,24646,22,Bruno,LinkedIn,2025-08-27,Support,9,2025-08-28,2025-09-06,,,1,0,0,0,Post-interview reject
+287,90702,15,Bruno,Jobboard A,2024-04-02,Tech,6,2024-04-06,2024-04-10,,,0,0,0,0,Post-interview reject
+288,79563,23,Chloé,Candidature Spontanée,2025-06-27,Marketing,0,2025-07-02,,,,0,0,0,0,Post-screen reject
+289,99565,35,Diego,Cooptation,2024-02-25,Tech,2,2024-02-29,,2024-03-08,,0,0,0,0,Offer not accepted
+290,86993,15,Bruno,Cooptation,2025-03-31,Tech,2,2025-04-06,2025-04-09,,,0,0,0,0,Post-interview reject
+291,36201,6,Diego,LinkedIn,2025-05-29,Marketing,9,2025-06-01,2025-06-04,2025-06-09,,1,1,0,0,Offer not accepted
+292,32883,15,Alice,LinkedIn,2025-06-26,Tech,9,2025-07-01,2025-07-10,,,0,0,0,0,Post-interview reject
+293,32362,30,Bruno,Jobboard A,2024-05-16,Ops,6,2024-05-19,,2024-05-22,,1,0,0,0,Offer not accepted
+294,92690,8,Diego,LinkedIn,2025-06-28,Ops,9,2025-07-04,2025-07-11,2025-07-21,,0,0,0,0,Offer not accepted
+295,60123,34,Diego,LinkedIn,2024-03-11,Support,9,2024-03-12,,,2024-03-20,1,0,0,1,Hired
+296,50900,21,Diego,LinkedIn,2024-11-11,Ops,9,2024-11-13,2024-11-17,2024-11-29,,1,0,0,0,Offer not accepted
+297,97142,22,Bruno,LinkedIn,2024-10-12,Support,9,,2024-10-17,2024-10-22,,0,1,0,0,Offer not accepted
+298,64307,12,Diego,Jobboard A,2024-07-11,Marketing,6,,,,,0,0,0,0,Rejected/No-show
+299,91847,33,Diego,Cooptation,2024-01-14,Support,2,,2024-01-18,,,0,0,0,0,Post-interview reject
+300,98617,2,Diego,LinkedIn,2025-04-15,Tech,9,2025-04-16,2025-04-25,,2025-04-18,1,0,0,0,Hired
+301,17150,11,Alice,Jobboard A,2024-07-23,Support,6,,2024-07-30,,,0,0,0,0,Post-interview reject
+302,42537,15,Chloé,Cooptation,2025-02-06,Tech,2,2025-02-11,,,,0,0,0,0,Post-screen reject
+303,76071,17,Diego,Cooptation,2024-09-06,Tech,2,,,,2024-09-14,0,0,0,0,Hired
+304,83183,17,Diego,Candidature Spontanée,2024-08-15,Tech,0,,,,,0,0,0,0,Rejected/No-show
+305,23363,6,Alice,LinkedIn,2025-06-23,Marketing,9,,,2025-06-28,2025-06-30,0,0,1,1,Hired
+306,38655,8,Diego,Candidature Spontanée,2024-02-27,Ops,0,,2024-03-07,,,0,0,0,0,Post-interview reject
+307,59335,4,Alice,LinkedIn,2025-03-24,Ops,9,2025-03-26,,,,1,0,0,0,Post-screen reject
+308,81928,21,Bruno,LinkedIn,2025-03-30,Ops,9,,2025-04-03,,,0,0,0,0,Post-interview reject
+309,20166,13,Chloé,LinkedIn,2024-08-19,Tech,9,,,2024-09-01,,0,0,0,0,Offer not accepted
+310,64065,20,Bruno,Jobboard A,2024-06-08,Tech,6,2024-06-10,2024-06-16,,2024-06-10,1,0,0,1,Hired
+311,36679,21,Chloé,LinkedIn,2024-01-04,Ops,9,,2024-01-07,,2024-01-14,0,0,0,1,Hired
+312,29471,25,Alice,LinkedIn,2025-07-24,Ops,9,2025-07-30,,,2025-07-26,0,0,0,1,Hired
+313,56385,20,Chloé,Cooptation,2025-07-31,Tech,2,,2025-08-10,,,0,0,0,0,Post-interview reject
+314,47261,23,Chloé,LinkedIn,2024-05-26,Marketing,9,,,,,0,0,0,0,Rejected/No-show
+315,67213,21,Chloé,LinkedIn,2024-01-20,Ops,9,2024-01-23,2024-01-29,,,1,0,0,0,Post-interview reject
+316,38586,23,Bruno,LinkedIn,2024-03-15,Marketing,9,,,,,0,0,0,0,Rejected/No-show
+317,84094,22,Bruno,LinkedIn,2024-02-11,Support,9,2024-02-12,,2024-02-17,,1,0,0,0,Offer not accepted
+318,17029,12,Bruno,LinkedIn,2025-05-21,Marketing,9,,2025-05-27,2025-06-01,,0,1,0,0,Offer not accepted
+319,87568,9,Bruno,LinkedIn,2025-06-27,Sales,9,,,,,0,0,0,0,Rejected/No-show
+320,12685,28,Chloé,LinkedIn,2024-04-03,Sales,9,,,,,0,0,0,0,Rejected/No-show
+321,76229,12,Bruno,Cooptation,2025-03-30,Marketing,2,,,,,0,0,0,0,Rejected/No-show
+322,41182,20,Bruno,Candidature Spontanée,2024-04-19,Tech,0,2024-04-20,2024-04-25,,,1,0,0,0,Post-interview reject
+323,44499,7,Bruno,Jobboard A,2024-08-11,Ops,6,2024-08-13,,2024-08-22,,1,0,0,0,Offer not accepted
+324,11713,16,Alice,Jobboard A,2024-12-31,Support,6,2025-01-06,,,2025-01-09,0,0,0,1,Hired
+325,73188,19,Chloé,Candidature Spontanée,2025-03-14,Ops,0,2025-03-18,,2025-03-18,2025-03-23,0,0,1,1,Hired
+326,24893,22,Diego,Agence,2025-06-16,Support,18,2025-06-22,2025-06-26,,,0,0,0,0,Post-interview reject
+327,69323,19,Bruno,Jobboard A,2024-01-28,Ops,6,2024-01-30,2024-02-09,,,1,0,0,0,Post-interview reject
+328,75265,13,Diego,Candidature Spontanée,2024-04-29,Tech,0,2024-05-02,,2024-05-12,,1,0,0,0,Offer not accepted
+329,86070,34,Chloé,Candidature Spontanée,2024-06-19,Support,0,2024-06-20,2024-06-26,2024-07-09,,1,0,0,0,Offer not accepted
+330,73727,18,Alice,Cooptation,2024-07-07,Sales,2,,,,,0,0,0,0,Rejected/No-show
+331,37134,29,Bruno,Jobboard A,2025-08-30,Sales,6,2025-09-02,,2025-09-12,,1,0,0,0,Offer not accepted
+332,76471,26,Alice,LinkedIn,2025-04-18,Sales,9,,2025-04-26,2025-05-02,,0,1,0,0,Offer not accepted
+333,84334,20,Alice,LinkedIn,2024-07-14,Tech,9,2024-07-18,2024-07-20,,,0,0,0,0,Post-interview reject
+334,38543,32,Bruno,Jobboard A,2025-08-14,Marketing,6,2025-08-19,,,2025-08-18,0,0,0,1,Hired
+335,21175,5,Bruno,Jobboard A,2024-10-31,Sales,6,,2024-11-04,,,0,0,0,0,Post-interview reject
+336,90100,33,Diego,LinkedIn,2024-10-31,Support,9,2024-11-03,,,,1,0,0,0,Post-screen reject
+337,23314,30,Alice,Jobboard A,2024-09-21,Ops,6,2024-09-26,,,,0,0,0,0,Post-screen reject
+338,63444,18,Diego,Jobboard A,2024-03-28,Sales,6,,,,,0,0,0,0,Rejected/No-show
+339,31265,26,Alice,Candidature Spontanée,2025-07-23,Sales,0,2025-07-27,2025-08-05,2025-08-09,,0,1,0,0,Offer not accepted
+340,21342,19,Alice,LinkedIn,2024-01-09,Ops,9,2024-01-11,,,,1,0,0,0,Post-screen reject
+341,79876,10,Chloé,LinkedIn,2024-04-16,Tech,9,,,2024-04-24,,0,0,0,0,Offer not accepted
+342,22934,28,Diego,Cooptation,2024-05-19,Sales,2,2024-05-25,2024-05-27,,,0,0,0,0,Post-interview reject
+343,70319,9,Chloé,Candidature Spontanée,2024-06-19,Sales,0,,,2024-06-26,2024-06-27,0,0,1,1,Hired
+344,72377,12,Alice,Agence,2024-03-21,Marketing,18,2024-03-24,,2024-04-04,,1,0,0,0,Offer not accepted
+345,15420,19,Alice,Candidature Spontanée,2024-01-11,Ops,0,,,,,0,0,0,0,Rejected/No-show
+346,25564,30,Bruno,Candidature Spontanée,2025-02-16,Ops,0,,,,2025-02-23,0,0,0,1,Hired
+347,81491,14,Bruno,LinkedIn,2025-08-13,Ops,9,,2025-08-15,2025-08-25,,0,0,0,0,Offer not accepted
+348,55655,18,Diego,LinkedIn,2024-03-15,Sales,9,,2024-03-24,2024-04-07,,0,0,0,0,Offer not accepted
+349,20921,2,Bruno,LinkedIn,2024-06-29,Tech,9,2024-06-30,2024-07-04,,,1,0,0,0,Post-interview reject
+350,99258,5,Alice,Jobboard A,2024-11-04,Sales,6,,2024-11-08,,2024-11-12,0,0,0,1,Hired
+351,33848,2,Diego,Candidature Spontanée,2025-07-18,Tech,0,2025-07-24,,,,0,0,0,0,Post-screen reject
+352,10360,3,Alice,LinkedIn,2025-02-26,Marketing,9,,2025-03-05,2025-03-17,2025-03-22,0,0,1,1,Hired
+353,93174,31,Alice,Jobboard A,2025-04-11,Ops,6,,,,,0,0,0,0,Rejected/No-show
+354,11492,30,Bruno,LinkedIn,2024-12-19,Ops,9,2024-12-25,2024-12-28,2025-01-08,,0,0,0,0,Offer not accepted
+355,59801,29,Bruno,LinkedIn,2024-09-10,Sales,9,,2024-09-12,2024-09-16,2024-09-25,0,1,1,1,Hired
+356,99376,2,Chloé,LinkedIn,2024-05-01,Tech,9,2024-05-02,2024-05-04,,2024-05-05,1,0,0,1,Hired
+357,62002,3,Diego,LinkedIn,2025-06-10,Marketing,9,,2025-06-12,,2025-06-16,0,0,0,1,Hired
+358,62616,10,Diego,Candidature Spontanée,2025-05-04,Tech,0,,,,,0,0,0,0,Rejected/No-show
+359,44935,20,Bruno,LinkedIn,2024-01-16,Tech,9,2024-01-22,,,,0,0,0,0,Post-screen reject
+360,21421,12,Diego,Candidature Spontanée,2025-03-11,Marketing,0,,,,2025-03-14,0,0,0,1,Hired
+361,61541,18,Chloé,Cooptation,2024-02-21,Sales,2,,2024-02-24,,2024-02-27,0,0,0,1,Hired
+362,90756,7,Alice,LinkedIn,2025-03-26,Ops,9,2025-04-01,,,,0,0,0,0,Post-screen reject
+363,18199,26,Diego,LinkedIn,2025-05-18,Sales,9,,2025-05-26,,,0,0,0,0,Post-interview reject
+364,89233,11,Alice,Candidature Spontanée,2024-03-20,Support,0,2024-03-25,,,,0,0,0,0,Post-screen reject
+365,47353,3,Chloé,LinkedIn,2024-09-21,Marketing,9,,,,,0,0,0,0,Rejected/No-show
+366,58257,26,Diego,Candidature Spontanée,2024-03-16,Sales,0,2024-03-18,2024-03-22,,,1,0,0,0,Post-interview reject
+367,24886,32,Alice,LinkedIn,2024-12-11,Marketing,9,,2024-12-13,2024-12-16,,0,1,0,0,Offer not accepted
+368,65960,1,Bruno,Cooptation,2025-07-18,Ops,2,,2025-07-20,,,0,0,0,0,Post-interview reject
+369,26411,16,Bruno,Candidature Spontanée,2024-02-19,Support,0,2024-02-23,2024-02-29,2024-03-03,,0,1,0,0,Offer not accepted
+370,34586,29,Diego,LinkedIn,2024-08-30,Sales,9,2024-09-03,,,2024-09-01,0,0,0,1,Hired
+371,74944,25,Alice,LinkedIn,2025-08-15,Ops,9,,,,2025-08-20,0,0,0,1,Hired
+372,14546,30,Chloé,Agence,2024-07-02,Ops,18,,,2024-07-12,,0,0,0,0,Offer not accepted
+373,50245,15,Bruno,LinkedIn,2024-03-21,Tech,9,2024-03-25,2024-04-03,2024-04-08,2024-04-14,0,1,1,1,Hired
+374,63510,14,Alice,LinkedIn,2024-10-24,Ops,9,2024-10-28,,,,0,0,0,0,Post-screen reject
+375,21882,25,Chloé,LinkedIn,2024-11-05,Ops,9,2024-11-09,2024-11-14,,,0,0,0,0,Post-interview reject
+376,36527,6,Diego,LinkedIn,2025-02-07,Marketing,9,,,,,0,0,0,0,Rejected/No-show
+377,40914,9,Chloé,Cooptation,2024-07-10,Sales,2,2024-07-14,2024-07-16,,,0,0,0,0,Post-interview reject
+378,69725,22,Alice,Cooptation,2025-08-04,Support,2,,2025-08-08,2025-08-22,,0,0,0,0,Offer not accepted
+379,97902,24,Alice,LinkedIn,2024-11-13,Marketing,9,,,,,0,0,0,0,Rejected/No-show
+380,85261,5,Bruno,Candidature Spontanée,2024-06-23,Sales,0,,2024-06-29,2024-07-03,,0,1,0,0,Offer not accepted
+381,27078,18,Chloé,LinkedIn,2025-08-07,Sales,9,2025-08-12,,,,0,0,0,0,Post-screen reject
+382,11634,13,Chloé,LinkedIn,2025-07-17,Tech,9,2025-07-21,,,,0,0,0,0,Post-screen reject
+383,14672,18,Alice,Jobboard A,2024-10-30,Sales,6,,2024-11-02,,,0,0,0,0,Post-interview reject
+384,63613,34,Chloé,Agence,2024-01-16,Support,18,,,,,0,0,0,0,Rejected/No-show
+385,24063,3,Bruno,LinkedIn,2024-12-29,Marketing,9,2024-12-30,,2025-01-12,2025-01-18,1,0,1,1,Hired
+386,30815,35,Chloé,LinkedIn,2024-12-04,Tech,9,2024-12-05,,2024-12-15,,1,0,0,0,Offer not accepted
+387,86264,16,Diego,Jobboard A,2024-03-31,Support,6,2024-04-06,,,,0,0,0,0,Post-screen reject
+388,88649,28,Chloé,Candidature Spontanée,2025-01-21,Sales,0,2025-01-27,,,2025-01-26,0,0,0,1,Hired
+389,85511,15,Alice,LinkedIn,2025-05-27,Tech,9,2025-05-31,,2025-05-31,,0,0,0,0,Offer not accepted
+390,32829,11,Diego,LinkedIn,2024-03-05,Support,9,,,,,0,0,0,0,Rejected/No-show
+391,65770,27,Alice,Cooptation,2025-03-16,Tech,2,2025-03-18,,,2025-03-23,1,0,0,0,Hired
+392,64968,25,Diego,LinkedIn,2024-03-26,Ops,9,,2024-04-05,2024-04-08,,0,1,0,0,Offer not accepted
+393,26672,6,Alice,LinkedIn,2025-04-01,Marketing,9,2025-04-06,2025-04-14,2025-04-21,2025-04-27,0,1,1,1,Hired
+394,59818,25,Chloé,LinkedIn,2024-09-12,Ops,9,2024-09-13,,,,1,0,0,0,Post-screen reject
+395,57272,27,Alice,LinkedIn,2024-01-04,Tech,9,,2024-01-09,,2024-01-07,0,0,0,1,Hired
+396,45654,14,Alice,Jobboard A,2025-08-11,Ops,6,2025-08-14,2025-08-24,,,1,0,0,0,Post-interview reject
+397,77648,33,Chloé,Candidature Spontanée,2024-04-11,Support,0,,2024-04-15,,,0,0,0,0,Post-interview reject
+398,70985,23,Chloé,Jobboard A,2024-12-28,Marketing,6,2024-12-30,,,,1,0,0,0,Post-screen reject
+399,57938,12,Alice,Cooptation,2024-04-20,Marketing,2,,2024-04-23,,2024-04-23,0,0,0,1,Hired
+400,75318,1,Diego,Agence,2025-07-22,Ops,18,,,,,0,0,0,0,Rejected/No-show
+401,78679,24,Bruno,LinkedIn,2025-03-25,Marketing,9,,,,,0,0,0,0,Rejected/No-show
+402,61023,8,Bruno,LinkedIn,2025-05-04,Ops,9,2025-05-05,,,,1,0,0,0,Post-screen reject
+403,34090,27,Bruno,Candidature Spontanée,2024-09-20,Tech,0,2024-09-25,2024-10-05,,,0,0,0,0,Post-interview reject
+404,78257,19,Bruno,LinkedIn,2024-10-11,Ops,9,2024-10-15,,,,0,0,0,0,Post-screen reject
+405,74584,17,Alice,Cooptation,2025-01-21,Tech,2,,,,,0,0,0,0,Rejected/No-show
+406,98506,6,Bruno,Cooptation,2025-04-22,Marketing,2,2025-04-24,,,,1,0,0,0,Post-screen reject
+407,23480,25,Alice,LinkedIn,2025-05-30,Ops,9,2025-06-03,,,2025-06-06,0,0,0,1,Hired
+408,47734,6,Alice,Jobboard A,2024-01-11,Marketing,6,2024-01-12,2024-01-22,,,1,0,0,0,Post-interview reject
+409,93179,15,Bruno,LinkedIn,2025-02-08,Tech,9,2025-02-11,,,,1,0,0,0,Post-screen reject
+410,56311,30,Chloé,LinkedIn,2024-03-07,Ops,9,2024-03-11,2024-03-15,,,0,0,0,0,Post-interview reject
+411,94835,33,Diego,Jobboard A,2024-06-24,Support,6,2024-06-27,,,,1,0,0,0,Post-screen reject
+412,11122,35,Bruno,LinkedIn,2025-05-20,Tech,9,2025-05-25,,,,0,0,0,0,Post-screen reject
+413,13165,34,Bruno,Cooptation,2024-06-01,Support,2,,2024-06-08,,,0,0,0,0,Post-interview reject
+414,81641,20,Diego,Candidature Spontanée,2025-04-30,Tech,0,2025-05-02,,,,1,0,0,0,Post-screen reject
+415,42258,8,Chloé,Candidature Spontanée,2024-10-08,Ops,0,2024-10-09,2024-10-12,,,1,0,0,0,Post-interview reject
+416,56820,30,Diego,LinkedIn,2024-05-21,Ops,9,,,,,0,0,0,0,Rejected/No-show
+417,48520,29,Diego,LinkedIn,2024-07-22,Sales,9,,,,,0,0,0,0,Rejected/No-show
+418,46716,35,Diego,LinkedIn,2024-11-19,Tech,9,2024-11-23,2024-11-30,,2024-11-29,0,0,0,1,Hired
+419,94551,23,Diego,LinkedIn,2025-04-10,Marketing,9,,2025-04-18,,,0,0,0,0,Post-interview reject
+420,18466,5,Bruno,Candidature Spontanée,2025-01-04,Sales,0,,,,,0,0,0,0,Rejected/No-show
+421,79498,18,Bruno,LinkedIn,2025-07-22,Sales,9,,2025-07-30,,,0,0,0,0,Post-interview reject
+422,90068,16,Bruno,LinkedIn,2025-06-12,Support,9,,,2025-06-19,2025-06-27,0,0,1,1,Hired
+423,69166,30,Alice,Candidature Spontanée,2025-04-03,Ops,0,,,,,0,0,0,0,Rejected/No-show
+424,45550,14,Chloé,LinkedIn,2025-01-02,Ops,9,2025-01-08,,,,0,0,0,0,Post-screen reject
+425,24401,12,Chloé,LinkedIn,2024-06-25,Marketing,9,2024-06-28,2024-07-05,,,1,0,0,0,Post-interview reject
+426,71431,3,Diego,LinkedIn,2024-09-08,Marketing,9,,,,,0,0,0,0,Rejected/No-show
+427,52191,30,Alice,Jobboard A,2024-03-13,Ops,6,,,,,0,0,0,0,Rejected/No-show
+428,23443,27,Bruno,Cooptation,2024-08-15,Tech,2,2024-08-16,2024-08-24,2024-08-30,,1,1,0,0,Offer not accepted
+429,42368,2,Alice,LinkedIn,2025-07-18,Tech,9,2025-07-24,2025-07-30,2025-08-08,2025-08-15,0,0,1,1,Hired
+430,96538,16,Diego,Candidature Spontanée,2024-09-16,Support,0,,2024-09-25,,,0,0,0,0,Post-interview reject
+431,33884,17,Bruno,Candidature Spontanée,2024-03-10,Tech,0,2024-03-13,2024-03-16,,2024-03-20,1,0,0,1,Hired
+432,26059,17,Alice,Candidature Spontanée,2025-02-01,Tech,0,,,2025-02-05,,0,0,0,0,Offer not accepted
+433,71377,33,Chloé,LinkedIn,2025-08-09,Support,9,,,,2025-08-18,0,0,0,1,Hired
+434,27958,6,Diego,LinkedIn,2025-06-12,Marketing,9,,,2025-06-16,,0,0,0,0,Offer not accepted
+435,92790,11,Diego,Candidature Spontanée,2024-06-15,Support,0,,2024-06-21,,,0,0,0,0,Post-interview reject
+436,87307,7,Alice,LinkedIn,2024-10-03,Ops,9,,2024-10-08,,,0,0,0,0,Post-interview reject
+437,98516,9,Bruno,Jobboard A,2024-11-19,Sales,6,,2024-11-25,2024-12-06,2024-12-12,0,0,1,1,Hired
+438,92131,32,Alice,Cooptation,2024-05-30,Marketing,2,,,2024-06-13,2024-06-15,0,0,1,1,Hired
+439,31938,33,Bruno,LinkedIn,2024-06-12,Support,9,,,,,0,0,0,0,Rejected/No-show
+440,29093,2,Chloé,Cooptation,2024-05-24,Tech,2,,2024-05-27,,,0,0,0,0,Post-interview reject
+441,40837,23,Bruno,Candidature Spontanée,2025-08-28,Marketing,0,2025-08-30,,,,1,0,0,0,Post-screen reject
+442,52281,9,Alice,Cooptation,2025-03-30,Sales,2,,2025-04-03,,,0,0,0,0,Post-interview reject
+443,89198,7,Chloé,LinkedIn,2025-05-27,Ops,9,2025-05-31,2025-06-10,,,0,0,0,0,Post-interview reject
+444,76013,11,Alice,Candidature Spontanée,2025-05-12,Support,0,,2025-05-14,,,0,0,0,0,Post-interview reject
+445,67998,7,Alice,Jobboard A,2025-08-07,Ops,6,,,,,0,0,0,0,Rejected/No-show
+446,89052,18,Alice,Cooptation,2024-03-05,Sales,2,2024-03-07,,,2024-03-12,1,0,0,1,Hired
+447,68129,35,Alice,Candidature Spontanée,2025-06-20,Tech,0,2025-06-26,,2025-06-26,2025-07-03,0,0,1,1,Hired
+448,44114,21,Bruno,Cooptation,2024-02-10,Ops,2,2024-02-12,2024-02-19,,,1,0,0,0,Post-interview reject
+449,47169,26,Diego,LinkedIn,2024-10-16,Sales,9,,2024-10-23,,2024-10-19,0,0,0,1,Hired
+450,56531,18,Diego,LinkedIn,2024-12-28,Sales,9,2025-01-01,,2025-01-11,,0,0,0,0,Offer not accepted
+451,17989,1,Alice,LinkedIn,2024-08-05,Ops,9,2024-08-09,2024-08-15,,,0,0,0,0,Post-interview reject
+452,76753,3,Alice,Jobboard A,2024-03-30,Marketing,6,,,2024-04-06,,0,0,0,0,Offer not accepted
+453,68749,10,Bruno,Jobboard A,2024-04-27,Tech,6,,,,,0,0,0,0,Rejected/No-show
+454,75801,9,Chloé,Jobboard A,2025-05-17,Sales,6,2025-05-19,,,,1,0,0,0,Post-screen reject
+455,58054,30,Chloé,LinkedIn,2024-07-13,Ops,9,2024-07-16,,,,1,0,0,0,Post-screen reject
+456,80465,30,Diego,Cooptation,2024-07-07,Ops,2,,,,,0,0,0,0,Rejected/No-show
+457,95476,30,Bruno,Candidature Spontanée,2025-07-16,Ops,0,,,,,0,0,0,0,Rejected/No-show
+458,61293,23,Alice,LinkedIn,2024-03-28,Marketing,9,,,,,0,0,0,0,Rejected/No-show
+459,49994,20,Alice,Cooptation,2025-07-11,Tech,2,2025-07-12,,,,1,0,0,0,Post-screen reject
+460,19415,23,Alice,Cooptation,2025-07-14,Marketing,2,2025-07-18,2025-07-20,,2025-07-23,0,0,0,1,Hired
+461,80080,15,Alice,Jobboard A,2024-12-30,Tech,6,2025-01-04,,,,0,0,0,0,Post-screen reject
+462,91356,24,Diego,LinkedIn,2024-04-10,Marketing,9,,2024-04-12,,,0,0,0,0,Post-interview reject
+463,72953,28,Bruno,Cooptation,2024-04-04,Sales,2,2024-04-10,,,,0,0,0,0,Post-screen reject
+464,87900,27,Diego,Agence,2024-06-22,Tech,18,2024-06-24,,,2024-07-01,1,0,0,1,Hired
+465,87507,22,Chloé,Cooptation,2024-12-17,Support,2,,,2024-12-24,,0,0,0,0,Offer not accepted
+466,81827,3,Chloé,Candidature Spontanée,2024-04-03,Marketing,0,,,,,0,0,0,0,Rejected/No-show
+467,55258,26,Bruno,Agence,2024-10-04,Sales,18,,,,,0,0,0,0,Rejected/No-show
+468,18987,13,Diego,LinkedIn,2024-03-11,Tech,9,2024-03-13,2024-03-17,2024-03-21,,1,1,0,0,Offer not accepted
+469,10292,27,Alice,Jobboard A,2024-11-25,Tech,6,2024-11-29,2024-12-01,,2024-11-29,0,0,0,1,Hired
+470,28395,19,Alice,Jobboard A,2024-01-13,Ops,6,2024-01-18,2024-01-20,,,0,0,0,0,Post-interview reject
+471,48791,31,Bruno,Agence,2025-03-07,Ops,18,2025-03-13,,2025-03-15,,0,0,0,0,Offer not accepted
+472,76923,12,Bruno,LinkedIn,2024-02-03,Marketing,9,,,,,0,0,0,0,Rejected/No-show
+473,51022,33,Chloé,LinkedIn,2024-04-28,Support,9,2024-04-29,2024-05-02,,,1,0,0,0,Post-interview reject
+474,12082,30,Chloé,Candidature Spontanée,2024-04-16,Ops,0,,,,,0,0,0,0,Rejected/No-show
+475,28930,12,Chloé,LinkedIn,2025-05-21,Marketing,9,,2025-05-24,2025-06-01,,0,0,0,0,Offer not accepted
+476,98129,17,Bruno,Cooptation,2024-02-02,Tech,2,,,,2024-02-07,0,0,0,1,Hired
+477,98921,19,Bruno,LinkedIn,2024-09-18,Ops,9,2024-09-20,,,,1,0,0,0,Post-screen reject
+478,43942,27,Diego,Agence,2024-12-26,Tech,18,2024-12-28,2025-01-06,2025-01-16,2025-01-18,1,0,1,1,Hired
+479,82447,25,Alice,Candidature Spontanée,2024-11-10,Ops,0,2024-11-12,,,,1,0,0,0,Post-screen reject
+480,74737,30,Chloé,LinkedIn,2025-02-18,Ops,9,2025-02-21,,2025-02-22,,1,0,0,0,Offer not accepted
+481,93813,13,Chloé,Cooptation,2025-05-04,Tech,2,2025-05-10,2025-05-17,2025-05-22,,0,1,0,0,Offer not accepted
+482,89880,18,Diego,LinkedIn,2024-08-27,Sales,9,2024-08-28,,,,1,0,0,0,Post-screen reject
+483,66586,16,Chloé,Jobboard A,2025-05-19,Support,6,,,,,0,0,0,0,Rejected/No-show
+484,45516,32,Bruno,Cooptation,2024-07-12,Marketing,2,,,,2024-07-14,0,0,0,1,Hired
+485,66398,11,Bruno,Candidature Spontanée,2025-08-22,Support,0,,,,2025-08-25,0,0,0,1,Hired
+486,38721,21,Bruno,LinkedIn,2024-11-03,Ops,9,2024-11-08,,,2024-11-07,0,0,0,1,Hired
+487,41327,5,Bruno,LinkedIn,2025-03-24,Sales,9,2025-03-28,2025-03-30,,,0,0,0,0,Post-interview reject
+488,64786,30,Alice,Cooptation,2025-06-16,Ops,2,2025-06-20,,2025-06-24,,0,0,0,0,Offer not accepted
+489,61425,14,Chloé,Jobboard A,2025-04-27,Ops,6,2025-05-02,,2025-04-30,,0,0,0,0,Offer not accepted
+490,62288,12,Alice,Jobboard A,2025-06-02,Marketing,6,2025-06-03,2025-06-10,,,1,0,0,0,Post-interview reject
+491,44620,21,Chloé,LinkedIn,2024-11-22,Ops,9,,2024-11-25,2024-11-29,,0,1,0,0,Offer not accepted
+492,46822,18,Diego,LinkedIn,2024-01-27,Sales,9,2024-02-01,2024-02-06,2024-02-16,,0,0,0,0,Offer not accepted
+493,10917,30,Diego,Candidature Spontanée,2024-10-27,Ops,0,2024-10-29,,2024-11-10,2024-11-13,1,0,1,1,Hired
+494,64159,19,Alice,LinkedIn,2024-04-20,Ops,9,,,,,0,0,0,0,Rejected/No-show
+495,61820,19,Diego,LinkedIn,2025-06-25,Ops,9,,,,,0,0,0,0,Rejected/No-show
+496,94183,4,Alice,Candidature Spontanée,2024-05-24,Ops,0,,2024-05-26,,,0,0,0,0,Post-interview reject
+497,55384,1,Bruno,LinkedIn,2024-05-18,Ops,9,2024-05-22,2024-05-24,,,0,0,0,0,Post-interview reject
+498,52087,14,Alice,Cooptation,2024-05-31,Ops,2,,,,,0,0,0,0,Rejected/No-show
+499,16091,35,Alice,LinkedIn,2025-01-26,Tech,9,2025-01-31,,2025-02-04,,0,0,0,0,Offer not accepted
+500,27706,33,Alice,Candidature Spontanée,2024-12-13,Support,0,2024-12-17,,,,0,0,0,0,Post-screen reject
+501,40423,23,Alice,Cooptation,2025-07-31,Marketing,2,,,2025-08-04,,0,0,0,0,Offer not accepted
+502,43948,23,Diego,Candidature Spontanée,2024-09-10,Marketing,0,,,,,0,0,0,0,Rejected/No-show
+503,42641,14,Alice,LinkedIn,2024-06-20,Ops,9,2024-06-22,,,,1,0,0,0,Post-screen reject
+504,45469,7,Bruno,Jobboard A,2024-01-30,Ops,6,,,,,0,0,0,0,Rejected/No-show
+505,79201,1,Chloé,Cooptation,2024-01-05,Ops,2,2024-01-08,,,,1,0,0,0,Post-screen reject
+506,21799,12,Diego,LinkedIn,2024-08-15,Marketing,9,2024-08-18,2024-08-21,,,1,0,0,0,Post-interview reject
+507,39903,12,Diego,LinkedIn,2025-07-17,Marketing,9,2025-07-18,2025-07-23,,2025-07-19,1,0,0,1,Hired
+508,24658,7,Alice,LinkedIn,2024-11-14,Ops,9,,,,,0,0,0,0,Rejected/No-show
+509,37701,10,Diego,Agence,2025-06-28,Tech,18,2025-07-03,2025-07-09,,,0,0,0,0,Post-interview reject
+510,71609,1,Chloé,Cooptation,2024-03-02,Ops,2,,2024-03-07,,,0,0,0,0,Post-interview reject
+511,14208,22,Alice,Jobboard A,2024-02-26,Support,6,2024-02-27,,2024-03-11,,1,0,0,0,Offer not accepted
+512,40552,33,Bruno,Cooptation,2025-05-22,Support,2,,2025-05-29,,,0,0,0,0,Post-interview reject
+513,12131,25,Diego,Jobboard A,2024-03-06,Ops,6,,,,2024-03-11,0,0,0,1,Hired
+514,95939,16,Bruno,Jobboard A,2024-02-01,Support,6,2024-02-04,,,,1,0,0,0,Post-screen reject
+515,75452,15,Alice,LinkedIn,2024-09-03,Tech,9,2024-09-07,,,,0,0,0,0,Post-screen reject
+516,31923,11,Diego,Jobboard A,2025-07-17,Support,6,2025-07-18,,,,1,0,0,0,Post-screen reject
+517,27837,5,Diego,LinkedIn,2025-02-23,Sales,9,,2025-03-03,,,0,0,0,0,Post-interview reject
+518,18903,21,Diego,Candidature Spontanée,2024-03-01,Ops,0,2024-03-07,,,,0,0,0,0,Post-screen reject
+519,52558,20,Diego,Candidature Spontanée,2025-05-24,Tech,0,,2025-06-01,,,0,0,0,0,Post-interview reject
+520,77814,1,Diego,LinkedIn,2025-05-28,Ops,9,2025-05-31,,,2025-06-04,1,0,0,0,Hired
+521,62578,15,Bruno,Jobboard A,2025-05-02,Tech,6,,2025-05-09,,,0,0,0,0,Post-interview reject
+522,89292,10,Alice,LinkedIn,2025-07-03,Tech,9,2025-07-04,2025-07-10,,,1,0,0,0,Post-interview reject
+523,40943,6,Chloé,Agence,2024-05-26,Marketing,18,,,,,0,0,0,0,Rejected/No-show
+524,35029,25,Alice,Candidature Spontanée,2025-08-19,Ops,0,,,,2025-08-23,0,0,0,1,Hired
+525,53024,19,Bruno,Candidature Spontanée,2024-07-14,Ops,0,2024-07-18,,2024-07-23,,0,0,0,0,Offer not accepted
+526,28187,23,Chloé,LinkedIn,2025-05-03,Marketing,9,,,,,0,0,0,0,Rejected/No-show
+527,97807,25,Diego,LinkedIn,2024-12-18,Ops,9,2024-12-22,2024-12-28,,,0,0,0,0,Post-interview reject
+528,26718,35,Bruno,LinkedIn,2025-04-19,Tech,9,2025-04-23,,,,0,0,0,0,Post-screen reject
+529,53097,29,Bruno,LinkedIn,2025-01-17,Sales,9,,2025-01-21,,,0,0,0,0,Post-interview reject
+530,56980,22,Chloé,LinkedIn,2025-01-26,Support,9,,2025-02-01,,,0,0,0,0,Post-interview reject
+531,15134,31,Alice,LinkedIn,2025-01-10,Ops,9,,2025-01-12,,,0,0,0,0,Post-interview reject
+532,52157,17,Chloé,Agence,2025-04-19,Tech,18,2025-04-24,2025-05-04,,,0,0,0,0,Post-interview reject
+533,50922,35,Chloé,LinkedIn,2025-03-26,Tech,9,2025-03-29,2025-04-03,,2025-04-01,1,0,0,1,Hired
+534,33349,27,Chloé,LinkedIn,2024-03-22,Tech,9,2024-03-27,,,2024-03-25,0,0,0,1,Hired
+535,21517,23,Bruno,Candidature Spontanée,2025-05-18,Marketing,0,,2025-05-26,,,0,0,0,0,Post-interview reject
+536,14065,32,Diego,Jobboard A,2024-11-22,Marketing,6,2024-11-25,2024-12-05,2024-12-16,,1,0,0,0,Offer not accepted
+537,10772,19,Bruno,Cooptation,2024-07-15,Ops,2,2024-07-19,,,,0,0,0,0,Post-screen reject
+538,53333,26,Chloé,Jobboard A,2024-11-09,Sales,6,2024-11-10,2024-11-16,,,1,0,0,0,Post-interview reject
+539,18085,10,Bruno,Candidature Spontanée,2025-08-11,Tech,0,2025-08-15,,2025-08-16,,0,0,0,0,Offer not accepted
+540,96338,34,Alice,Jobboard A,2025-06-06,Support,6,2025-06-08,,,2025-06-14,1,0,0,1,Hired
+541,32026,22,Chloé,Jobboard A,2025-05-22,Support,6,2025-05-27,,,,0,0,0,0,Post-screen reject
+542,68726,28,Alice,Cooptation,2024-10-08,Sales,2,,,,,0,0,0,0,Rejected/No-show
+543,70613,17,Diego,LinkedIn,2025-04-22,Tech,9,,2025-05-01,2025-05-10,,0,0,0,0,Offer not accepted
+544,54595,31,Chloé,LinkedIn,2024-08-22,Ops,9,2024-08-27,2024-09-02,,,0,0,0,0,Post-interview reject
+545,89524,3,Bruno,Jobboard A,2025-02-21,Marketing,6,,,,,0,0,0,0,Rejected/No-show
+546,19962,4,Bruno,LinkedIn,2025-01-24,Ops,9,,,,,0,0,0,0,Rejected/No-show
+547,31062,18,Chloé,Cooptation,2024-06-01,Sales,2,2024-06-07,,2024-06-04,,0,0,0,0,Offer not accepted
+548,32719,26,Bruno,LinkedIn,2024-06-11,Sales,9,2024-06-17,2024-06-20,,,0,0,0,0,Post-interview reject
+549,22187,29,Bruno,LinkedIn,2024-02-07,Sales,9,2024-02-08,,2024-02-17,,1,0,0,0,Offer not accepted
+550,36529,16,Bruno,LinkedIn,2024-03-26,Support,9,2024-03-27,2024-03-29,,,1,0,0,0,Post-interview reject
+551,38141,23,Bruno,Candidature Spontanée,2024-09-21,Marketing,0,,2024-09-24,,,0,0,0,0,Post-interview reject
+552,78831,20,Diego,LinkedIn,2024-10-18,Tech,9,,2024-10-28,,,0,0,0,0,Post-interview reject
+553,37146,34,Alice,Cooptation,2024-04-10,Support,2,2024-04-16,,,,0,0,0,0,Post-screen reject
+554,88903,23,Diego,Candidature Spontanée,2024-09-10,Marketing,0,,2024-09-16,,,0,0,0,0,Post-interview reject
+555,79539,15,Bruno,LinkedIn,2025-01-02,Tech,9,2025-01-05,,2025-01-07,2025-01-14,1,0,1,0,Hired
+556,91146,34,Chloé,Cooptation,2024-05-21,Support,2,,,,,0,0,0,0,Rejected/No-show
+557,19470,4,Alice,LinkedIn,2024-07-24,Ops,9,,,,,0,0,0,0,Rejected/No-show
+558,98610,35,Bruno,LinkedIn,2024-08-11,Tech,9,2024-08-12,,,2024-08-21,1,0,0,1,Hired
+559,65256,6,Diego,Cooptation,2024-11-03,Marketing,2,2024-11-05,,2024-11-16,,1,0,0,0,Offer not accepted
+560,98412,11,Bruno,Candidature Spontanée,2024-08-11,Support,0,,2024-08-15,2024-08-18,2024-08-19,0,1,1,1,Hired
+561,41935,29,Alice,LinkedIn,2025-03-24,Sales,9,,2025-03-30,2025-04-09,2025-04-18,0,0,1,1,Hired
+562,95768,26,Chloé,Jobboard A,2024-07-18,Sales,6,2024-07-24,,,,0,0,0,0,Post-screen reject
+563,62973,34,Alice,LinkedIn,2024-09-21,Support,9,2024-09-24,2024-09-28,,,1,0,0,0,Post-interview reject
+564,16463,27,Bruno,Jobboard A,2024-08-19,Tech,6,2024-08-20,2024-08-29,2024-09-02,,1,1,0,0,Offer not accepted
+565,46910,23,Bruno,Jobboard A,2024-04-21,Marketing,6,,2024-05-01,,,0,0,0,0,Post-interview reject
+566,22401,13,Chloé,Jobboard A,2025-02-21,Tech,6,,2025-02-23,2025-03-06,,0,0,0,0,Offer not accepted
+567,94714,1,Chloé,Jobboard A,2024-05-23,Ops,6,,2024-05-31,,,0,0,0,0,Post-interview reject
+568,37401,5,Chloé,LinkedIn,2024-06-29,Sales,9,,2024-07-04,,,0,0,0,0,Post-interview reject
+569,30012,11,Diego,Cooptation,2025-04-27,Support,2,,,,,0,0,0,0,Rejected/No-show
+570,59760,2,Alice,Cooptation,2025-07-31,Tech,2,,2025-08-02,,2025-08-04,0,0,0,1,Hired
+571,48264,18,Bruno,Cooptation,2025-02-12,Sales,2,2025-02-17,,,,0,0,0,0,Post-screen reject
+572,18727,28,Alice,LinkedIn,2025-07-12,Sales,9,,,,2025-07-13,0,0,0,0,Hired
+573,83483,34,Alice,LinkedIn,2025-06-04,Support,9,2025-06-06,2025-06-16,2025-06-24,,1,0,0,0,Offer not accepted
+574,86120,18,Alice,LinkedIn,2024-10-19,Sales,9,2024-10-22,,,,1,0,0,0,Post-screen reject
+575,76865,31,Chloé,LinkedIn,2025-04-14,Ops,9,,,,,0,0,0,0,Rejected/No-show
+576,65507,35,Diego,LinkedIn,2024-07-18,Tech,9,,,,,0,0,0,0,Rejected/No-show
+577,46229,31,Diego,LinkedIn,2024-10-07,Ops,9,,2024-10-09,,,0,0,0,0,Post-interview reject
+578,58812,17,Chloé,Cooptation,2024-11-22,Tech,2,2024-11-23,2024-11-26,2024-12-10,2024-12-17,1,0,1,1,Hired
+579,56889,12,Diego,LinkedIn,2025-08-07,Marketing,9,,2025-08-09,,,0,0,0,0,Post-interview reject
+580,24877,35,Alice,Candidature Spontanée,2025-05-31,Tech,0,2025-06-04,,,,0,0,0,0,Post-screen reject
+581,17363,9,Diego,Jobboard A,2024-10-24,Sales,6,2024-10-27,,,,1,0,0,0,Post-screen reject
+582,32792,15,Diego,Cooptation,2025-02-01,Tech,2,2025-02-07,,,,0,0,0,0,Post-screen reject
+583,50889,3,Alice,Jobboard A,2024-05-03,Marketing,6,,,,,0,0,0,0,Rejected/No-show
+584,24427,28,Bruno,Jobboard A,2025-05-04,Sales,6,2025-05-07,,,2025-05-06,1,0,0,1,Hired
+585,19599,23,Diego,Jobboard A,2024-12-02,Marketing,6,,,,,0,0,0,0,Rejected/No-show
+586,86673,3,Bruno,Candidature Spontanée,2024-11-20,Marketing,0,2024-11-22,2024-11-28,2024-12-08,,1,0,0,0,Offer not accepted
+587,43749,8,Diego,Jobboard A,2025-04-11,Ops,6,2025-04-12,,2025-04-18,2025-04-20,1,0,1,1,Hired
+588,62579,20,Diego,Jobboard A,2025-01-20,Tech,6,,2025-01-27,2025-01-31,,0,1,0,0,Offer not accepted
+589,57162,19,Bruno,Jobboard A,2024-02-14,Ops,6,2024-02-16,2024-02-20,,,1,0,0,0,Post-interview reject
+590,76160,29,Alice,Cooptation,2024-06-24,Sales,2,,,,,0,0,0,0,Rejected/No-show
+591,76582,10,Bruno,LinkedIn,2024-04-17,Tech,9,,,,,0,0,0,0,Rejected/No-show
+592,36642,33,Alice,Jobboard A,2025-03-23,Support,6,2025-03-26,2025-03-28,,2025-04-02,1,0,0,1,Hired
+593,86310,16,Bruno,Jobboard A,2024-01-22,Support,6,,,,,0,0,0,0,Rejected/No-show
+594,43412,29,Chloé,Candidature Spontanée,2024-05-03,Sales,0,,2024-05-06,,,0,0,0,0,Post-interview reject
+595,85167,9,Bruno,Jobboard A,2024-12-29,Sales,6,,2025-01-08,,,0,0,0,0,Post-interview reject
+596,46436,2,Alice,Jobboard A,2025-02-27,Tech,6,,2025-03-08,,,0,0,0,0,Post-interview reject
+597,19989,2,Bruno,Agence,2024-11-02,Tech,18,,,,2024-11-05,0,0,0,1,Hired
+598,78400,14,Chloé,Jobboard A,2025-06-08,Ops,6,,,,,0,0,0,0,Rejected/No-show
+599,12714,34,Alice,LinkedIn,2025-07-13,Support,9,2025-07-14,2025-07-24,,2025-07-19,1,0,0,1,Hired
+600,79510,2,Alice,LinkedIn,2024-03-21,Tech,9,,2024-03-27,,,0,0,0,0,Post-interview reject
