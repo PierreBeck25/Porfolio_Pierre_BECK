@@ -1,0 +1,38 @@
+name: Build KPI Control Dashboard
+
+on:
+  push:
+    paths:
+      - 'projects/kpi-control/**'
+      - '.github/workflows/build-kpi-control.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install deps
+        run: pip install pandas plotly numpy
+
+      - name: Generate data
+        run: python projects/kpi-control/scripts/generate_data.py
+
+      - name: Build dashboard
+        run: python projects/kpi-control/scripts/build_dashboard.py
+
+      - name: Commit built files
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'Build KPI dashboard (CI)'
+          file_pattern: |
+            projects/kpi-control/data/raw/applications.csv
+            docs/projects/kpi-control/index.html
