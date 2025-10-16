@@ -1,6 +1,6 @@
 <!doctype html>
 <meta charset="utf-8" />
-<title>Tour de contrôle Recrutement — Démo</title>
+<title>Tour de contrôle Recrutement — Démonstration</title>
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 <style>
   body { font-family: Inter, system-ui, -apple-system, Segoe UI; margin:0; background:#0b1220; color:#eef2ff; }
@@ -16,7 +16,7 @@
   @media (max-width: 900px){ .kpis{grid-template-columns:repeat(2,1fr)} .grid{grid-template-columns:1fr} }
 </style>
 <div class="wrap">
-  <h1>Tour de contrôle Recrutement — Démo</h1>
+  <h1>Tour de contrôle Recrutement — Démonstration</h1>
   <div class="kpis" id="kpis"></div>
   <div class="grid">
     <div class="box" id="funnel"></div>
@@ -27,52 +27,57 @@
   </div>
 </div>
 <script>
-  // --- KPIs démo (remplacés plus tard par la version Python)
+  // --- KPIs de démonstration (remplacés plus tard par la version Python)
   const KPIS = {
     "Candidatures": 600,
-    "Hires": 120,
-    "Offer acceptance (%)": 72.5,
-    "TTH médiane (j)": 21,
-    "TTH P90 (j)": 38,
-    "SLA screen 72h (%)": 83.2
+    "Embauches": 120,
+    "Taux d’acceptation des offres (%)": 72.5,
+    "Time-to-Hire médian (j)": 21,
+    "Time-to-Hire P90 (j)": 38,
+    "SLA qualification < 72h (%)": 83.2
   };
   document.getElementById('kpis').innerHTML =
     Object.entries(KPIS).map(([k,v]) => `
       <div class="card"><div class="kpi">${v}</div><div class="label">${k}</div></div>
     `).join('');
 
-  // --- Charts démo
+  // --- Graphiques de démonstration
+  // Entonnoir Candidature → Embauche
   Plotly.newPlot('funnel', [{
     type:'funnel',
-    y:['Apply','Screen','Interview','Offer','Hire'],
+    y:['Candidature','Qualification','Entretien','Offre','Embauche'],
     x:[600, 420, 260, 165, 120]
-  }], {title:'Funnel Apply → Hire'});
+  }], {title:'Entonnoir Candidature → Embauche'});
 
+  // Mix des sources
   Plotly.newPlot('mix', [{
     type:'pie',
-    labels:['LinkedIn','Jobboard A','Cooptation','Spontanée','Agence'],
+    labels:['LinkedIn','Jobboard A','Cooptation','Candidature spontanée','Agence'],
     values:[45,20,15,15,5]
   }], {title:'Mix des sources'});
 
+  // Délai d’embauche par famille de poste
   Plotly.newPlot('tth', [{
     type:'box',
-    x:['Sales','Support','Tech','Ops','Marketing','Sales','Tech','Ops'],
+    x:['Ventes','Support','Tech','Opérations','Marketing','Ventes','Tech','Opérations'],
     y:[19,24,28,22,25,18,35,26]
-  }], {title:'Time-to-Hire par famille de poste'});
+  }], {title:'Délai d’embauche (Time-to-Hire) par famille de poste'});
 
+  // Respect du SLA — Qualification < 72h
   Plotly.newPlot('sla', [{
     type:'bar',
     x:['Alice','Bruno','Chloé','Diego'],
     y:[88,79,85,81],
     text:[88,79,85,81],
     textposition:'auto'
-  }], {title:'Respect SLA — Screen < 72h'});
+  }], {title:'Respect du SLA — Qualification < 72h'});
 
+  // Embauches par recruteur
   Plotly.newPlot('prod', [{
     type:'bar',
     x:['Alice','Bruno','Chloé','Diego'],
     y:[36,28,34,22],
     text:[36,28,34,22],
     textposition:'auto'
-  }], {title:'Hires par recruteur'});
+  }], {title:'Embauches par recruteur'});
 </script>
